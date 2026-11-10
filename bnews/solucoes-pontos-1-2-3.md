@@ -86,7 +86,7 @@ O texto do BNews SP foi copiado de um modelo e tem erros: o link de contato est�
 | # | Como está | Como deve ficar |
 |---|---|---|
 | 1 | Link de contato `https://www.BNEWS SÃO PAULO.com.br/contato/` (quebrado) | `https://www.bnewssaopaulo.com.br/contato/` (ou um e-mail exclusivo, ver item 3) |
-| 2 | "ALVES QUATRO ASSESSORIA DE COMUNICAÇÃO **EIRELI**" | Razão social **atual** conforme o cartão CNPJ (a EIRELI foi extinta pela Lei 14.195/2021; hoje deve ser **SLU** ou outro tipo). **Confirmar no cartão CNPJ.** |
+| 2 | "ALVES QUATRO ASSESSORIA DE COMUNICAÇÃO **EIRELI**" | Razão social **atual** conforme o cartão CNPJ. A EIRELI foi extinta pela Lei 14.195/2021, e a política do BNews RN, do mesmo grupo (CNPJ 11.523.951), já usa **"LTDA"**. Provavelmente o correto é LTDA. **Confirmar no cartão CNPJ.** |
 | 3 | Não há contato do responsável pelos dados | Incluir a seção "Encarregado" (texto abaixo) |
 | 4 | Cookies: diz que para revogar o consentimento o leitor "deverá apagar os cookies" no navegador | Incluir: *"ou clicar em 'Preferências de cookies', no rodapé do site"* (ligado ao Ponto 2) |
 | 5 | Não lista com clareza com quem os dados são compartilhados | Listar os parceiros: Google (anúncios e métricas), Taboola, TikTok, OneSignal (notificações), Amazon (programa de afiliados) |
