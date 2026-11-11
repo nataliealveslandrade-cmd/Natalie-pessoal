@@ -1,315 +1,334 @@
 # Plano de Recolocação: ser encontrada por recrutadores e encontrá-los
 
-> Novembro de 2026. Aplicação prática do método do post (empresas-foco, Hunting Ativo, Hunting Inverso, 4 blocos e STAR) ao seu perfil.
-> **Perfil-base usado:** Advogada / **Legal Counsel de negócio** com foco em **mídia e digital**: LGPD e privacidade, direito autoral e de imagem, contencioso estratégico, compliance e legal ops (protocolos, raio-x de contencioso, monitoramento).
-> ⚠️ O arquivo do currículo não está neste repositório. Onde aparecer **[confirmar]**, preencha com o dado real do seu CV (anos, cargos, números).
+> Versão 2 (novembro de 2026), feita a partir do CV `Natalie_Alves_CV_Imobiliario_Registral_ATS.docx`.
+> Aplica o método do post (empresas-foco, Hunting Ativo, Hunting Inverso, 4 blocos e STAR) ao seu perfil real.
+> **Posicionamento:** Advogada de **Direito Imobiliário e Registral consultivo**, com foco em **due diligence imobiliária e fundiária de imóveis rurais** (florestal, agro, industrial), mais um diferencial de **jurídico interno com gestão de riscos** (redução de 60% do litígio).
+> **Senioridade-alvo:** Advogada **Júnior / Pleno I** (OAB 2025). Nas buscas, inclua Júnior e Pleno. Não use "Sênior" nem "Coordenação".
 
 ---
 
 ## 0. Diagnóstico
 
 ### 0.1 O que o post ensina, traduzido
-| O post diz | O que significa na prática | Onde está neste plano |
+| O post diz | Na prática | Onde está |
 |---|---|---|
-| "Use só 10 min para olhar vagas" | Vaga publicada é a parte mais concorrida do mercado. A maior parte das contratações sênior passa por indicação e busca ativa. | Rotina de 1h/dia (Etapa 4) |
-| Lista de 20 empresas-foco | Você escolhe o alvo antes de o mercado te escolher. | Etapa 3 |
-| "Hunting Ativo" | Como o recrutador te acha no LinkedIn Recruiter: palavras-chave, cargo, local, "Open to Work". | Etapas 1 e 2 |
-| "Hunting Inverso" | Você caça o recrutador, o gestor jurídico e a vaga antes de ela ser publicada. | Etapa 3 |
-| 4 blocos + STAR | Pitch estruturado e respostas com resultado. | Etapa 4 |
+| "Só 10 min por dia para olhar vagas" | Vaga publicada é a parte mais disputada do mercado. Em escritórios e no agro, muita contratação vem de indicação. | Rotina (Etapa 4) |
+| 20 empresas-foco | Escolher o alvo antes de se candidatar | Etapa 3 |
+| Hunting Ativo | Como o recrutador te acha no LinkedIn Recruiter e no ATS | Etapas 1 e 2 |
+| Hunting Inverso | Você caça o recrutador, o sócio ou o gestor e a vaga antes de ela ser publicada | Etapa 3 |
+| 4 blocos + STAR | Pitch e respostas com resultado | Etapa 4 |
 
-> Observação: o post é também uma chamada comercial ("me chama aqui"). O método é bom e está todo abaixo; você não precisa contratar nada para aplicá-lo.
+> O post também é uma chamada comercial ("me chama aqui"). O método está todo abaixo; não é preciso contratar nada.
 
-### 0.2 Diagnóstico do seu posicionamento (leitura preliminar)
+### 0.2 Diagnóstico técnico do CV (filtro ATS)
+| Verificação | Resultado | Status |
+|---|---|---|
+| Uma coluna, sem tabelas, caixas de texto, imagens ou ícones | Nenhum elemento problemático encontrado no arquivo | ✅ |
+| Contato no corpo (não em cabeçalho/rodapé) | Sim | ✅ |
+| Fonte padrão | Calibri 10,5 | ✅ |
+| Títulos de seção reconhecíveis | RESUMO, EXPERIÊNCIA, FORMAÇÃO, CURSOS: sim. "ÁREAS DE ATUAÇÃO E COMPETÊNCIAS" funciona, mas "COMPETÊNCIAS" sozinho é lido melhor | 🟡 |
+| Cargo e empresa | Estão na mesma linha, separados por travessão ("Advogada — Mosello Lima…"). Gupy e Workday às vezes juntam tudo no campo "cargo". | 🟡 |
+| Datas | "abr/2026 – nov/2026" costuma ser lido, mas "04/2026 – 11/2026" é mais seguro | 🟡 |
+| Palavras-chave da área | Muito boas: due diligence, matrícula, cadeia dominial, ônus, gravames, CAR, CCIR, SIGEF, georreferenciamento, alienação fiduciária | ✅ |
+| Palavras-chave que faltam (use só se você tem a experiência) | ver 1.2: "registro de imóveis", "INCRA", "Lei 5.709/71", "arrendamento rural", "retificação de área", "usucapião extrajudicial", "REURB", "incorporação imobiliária", "legal opinion" | 🟡 |
+| Nome do arquivo | Bom. Versão final: `Natalie-Alves-Advogada-Imobiliario-Registral.pdf` | ✅ |
+| Metadados do .docx | Sem título/autor nas propriedades. Preencha antes de exportar o PDF. | 🟡 |
 
-**Pontos fortes (o que vende):**
-- Experiência rara e muito procurada: **jurídico de veículo de comunicação**. Poucos advogados sabem direito de imagem em matéria jornalística, direito autoral de conteúdo, direito de resposta e LGPD em portal de notícias ao mesmo tempo.
-- Perfil de **jurídico que gera e protege receita** (licenciamento de conteúdo, branded content seguro, monetização de conteúdo copiado), e não só "apaga incêndio".
-- Entregáveis concretos de **legal ops**: raio-x de contencioso, planilha de monitoramento, protocolo de ações, diagnóstico de LGPD em sites. Isso vira prova no LinkedIn e no CV.
+**Veredito ATS:** o arquivo passa. Os ganhos estão em ajustes de leitura (cargo/empresa, datas) e em palavras-chave adaptadas a cada vaga.
 
-**Riscos (o que provavelmente está te escondendo):**
-| # | Risco | Efeito | Correção |
+### 0.3 Diagnóstico de conteúdo (o que o recrutador vai perceber)
+**Pontos fortes**
+1. **Nicho valioso e escasso:** due diligence de **imóvel rural** (matrícula, cadeia dominial, SIGEF, CAR, CCIR, estrangeiros) para grandes operações florestais e do agro. A Bahia (oeste baiano, extremo sul florestal, eólicas e solares no semiárido) tem demanda alta e poucos especialistas.
+2. **Clientes de peso:** operações para grandes grupos florestais e de reflorestamento dão credibilidade imediata.
+3. **Resultado com número:** "redução de 60% do litígio" no jurídico interno. Isso é raro em CV júnior.
+4. **Perfil completo:** consultivo, contencioso, setor público (SEI, articulação institucional) e jurídico interno. Você fala com cartório, com cliente e com órgão público.
+5. **Inglês avançado:** importante para clientes estrangeiros e aquisição de terras por estrangeiros.
+
+**Riscos e como neutralizar**
+| # | Risco | Como o recrutador lê | Correção |
 |---|---|---|---|
-| 1 | Título genérico ("Advogada") | Não aparece nas buscas por "Legal Counsel", "Advogada Interna", "DPO", "Privacidade" | Headline com 3 a 4 termos de busca (Etapa 2) |
-| 2 | Resultados sem número | Recrutador não consegue comparar | Bullets no formato verbo + escopo + número |
-| 3 | CV com colunas, ícones ou tabela | ATS lê errado ou zera o currículo | CV de uma coluna, texto puro (Etapa 2) |
-| 4 | "Open to Work" desligado ou público | Desligado: some do filtro do Recruiter. Público: pode passar imagem de urgência | Ligar com visibilidade **só para recrutadores** |
-| 5 | Localização restrita | Some das buscas remotas e de SP | Cidade real + "aberta a remoto/híbrido" |
-| 6 | Sem atividade recente | Recruiter prioriza perfis ativos nos últimos 30 dias | 2 posts/semana + 5 comentários/semana |
-| 7 | Dados de cliente expostos | Risco de sigilo profissional (Estatuto da OAB) | Sempre anonimizar: "grupo de mídia regional (multiestados)" |
+| 1 | Experiências curtas (7 e 11 meses) | "Instabilidade?" | Narrativa coerente: **público → jurídico interno → especialização em imobiliário**. Na entrevista: "fui me especializando até achar meu nicho". No LinkedIn, deixe claro o motivo da saída do escritório, se ocorreu (fim de projeto, etc.) [confirmar]. |
+| 2 | OAB recente (2025) | Júnior | Assuma: mire **Júnior/Pleno I** e destaque a complexidade das operações (vale mais que tempo de carteira). |
+| 3 | BNews entre mai/2023 e abr/2025 aparece com "audiências" e "petições" antes da OAB | Pode gerar pergunta | Escreva "acompanhamento de audiências" e "elaboração de minutas de petições". Confira como era o seu vínculo na época [confirmar]. |
+| 4 | Nome dos clientes do escritório no CV | Sigilo profissional / conflito | Confirme com o escritório se pode citar. Alternativa segura: "grandes grupos dos setores florestal e de reflorestamento". |
+| 5 | Formação "2021 – 2026" | Já se formou? | Escreva "concluído em [mês]/2026" [confirmar]. |
+| 6 | Resumo só com tarefas | Falta escala | Inclua números da área imobiliária: nº de matrículas/imóveis analisados, hectares, nº de operações [confirmar]. |
 
-### 0.3 Scorecard: aplique hoje (nota 0 a 2 em cada item)
-| Item | 0 | 1 | 2 | Sua nota |
+### 0.4 Ajustes prontos para o CV (copie e cole)
+**Cabeçalho (mais curto, com cargo-alvo):**
+> Natalie Alves
+> Advogada | Direito Imobiliário e Registral | Due Diligence Imobiliária e Fundiária | OAB/BA 91.528
+
+**Experiência (cargo, empresa e datas em linhas separadas):**
+> Advogada – Direito Imobiliário e Registral Consultivo
+> Mosello Lima Advocacia | Salvador – BA
+> 04/2026 – 11/2026
+
+**Primeiro bullet com escala (preencha):**
+> Due diligence imobiliária e fundiária de [N] imóveis rurais (cerca de [X] mil hectares) em [N] operações de aquisição e arrendamento dos setores florestal e do agronegócio, com análise de matrículas, cadeia dominial, ônus, gravames e certidões, e quadro de riscos e providências de mitigação.
+
+**Resumo (1ª frase, já com cargo e nicho):**
+> Advogada de Direito Imobiliário e Registral com foco em due diligence imobiliária e fundiária de imóveis rurais para operações de grande porte nos setores florestal, industrial e do agronegócio.
+
+### 0.5 Scorecard do LinkedIn (nota 0 a 2 em cada item; preencha olhando seu perfil)
+| Item | 0 | 1 | 2 | Nota |
 |---|---|---|---|---|
-| Headline com cargo-alvo + 2 especialidades | genérica | cargo só | cargo + especialidades | |
-| Foto profissional e banner com proposta de valor | sem | só foto | os dois | |
-| "Sobre" com palavras-chave e resultados | vazio | texto genérico | keywords + números | |
-| Experiências com bullets de resultado | só cargo | tarefas | resultados | |
-| 5 competências fixadas alinhadas ao alvo | nenhuma | aleatórias | alinhadas | |
-| Open to Work (só recrutadores) com cargos certos | off | on, cargos vagos | on, 5 cargos-alvo | |
-| URL personalizada | número | parcial | /in/nome-sobrenome | |
-| Atividade nos últimos 30 dias | nenhuma | curtidas | posts/comentários | |
-| CV aprovado no teste de ATS (0.4 / Etapa 2) | não testado | com erros | ok | |
+| Headline com cargo-alvo + nicho | "Advogada" | cargo | cargo + nicho + setores | |
+| Foto e banner com proposta de valor | sem | só foto | os dois | |
+| "Sobre" com palavras-chave e resultados | vazio | genérico | keywords + números | |
+| Experiências iguais às do CV (datas e cargos batem) | divergem | parcial | idênticas | |
+| 5 competências fixadas no nicho | nenhuma | genéricas | imobiliário/registral/agro | |
+| Open to Work (só recrutadores) com cargos certos | off | on, vago | on, 5 cargos-alvo | |
+| URL personalizada | número | parcial | /in/natalie-alves-andrade ✅ | |
+| Atividade nos últimos 30 dias | nada | curtidas | posts/comentários | |
+| Recomendações (sócio, gestor, colega) | 0 | 1 | 2+ | |
 | Lista de 20 empresas-foco | não | parcial | completa | |
 
-**Leitura:** 0–8 → fazer Etapas 1 e 2 antes de qualquer candidatura. 9–15 → Etapas 2 e 3 em paralelo. 16–20 → foco total em Etapas 3 e 4.
+**Leitura:** 0–8 → Etapas 1 e 2 antes de candidatar. 9–15 → Etapas 2 e 3 em paralelo. 16–20 → foco nas Etapas 3 e 4.
 
 ---
 
 ## Plano de 4 etapas
 
 ```
-ETAPA 1 (sem. 1)          ETAPA 2 (sem. 1–2)        ETAPA 3 (sem. 2–4)          ETAPA 4 (contínuo)
-Alvo e diagnóstico   ->   Ficar encontrável    ->   Encontrar e abordar    ->   Converter
-cargos, keywords,         LinkedIn + CV ATS         20 empresas, recrutadores,  4 blocos, STAR,
-scorecard                 (Hunting Ativo)           Hunting Inverso             rotina de 1h/dia
+ETAPA 1 (sem. 1)        ETAPA 2 (sem. 1–2)       ETAPA 3 (sem. 2–4)          ETAPA 4 (contínuo)
+Alvo e keywords   ->    Ficar encontrável   ->   Encontrar e abordar    ->   Converter
+cargos, termos,         LinkedIn + CV ATS        20 empresas, recrutadores,  4 blocos, STAR,
+scorecard               (Hunting Ativo)          sócios (Hunting Inverso)    rotina de 1h/dia
 ```
 
 ---
 
 ## ETAPA 1: Alvo e palavras-chave (semana 1)
 
-### 1.1 Cargos-alvo (use exatamente estes termos no LinkedIn, no CV e nos filtros)
-1. Legal Counsel / Advogada Interna (In-house)
-2. Advogada de Privacidade e Proteção de Dados / Privacy Counsel / DPO
-3. Advogada de Propriedade Intelectual, Mídia e Entretenimento (TMT)
-4. Coordenadora Jurídica / Especialista Jurídico (contencioso estratégico e compliance)
-5. Advogada Sênior de Contratos (Contratos comerciais e licenciamento)
+### 1.1 Cargos-alvo (use estes termos exatos no LinkedIn, no CV e nos filtros)
+1. Advogada Imobiliário / Advogada de Direito Imobiliário (Júnior/Pleno)
+2. Advogada Imobiliário e Registral / Advogada Registral
+3. Advogada de Due Diligence Imobiliária / Analista Jurídico Fundiário
+4. Advogada Agrária / Agronegócio (fundiário)
+5. Advogada Interna / Analista Jurídico (Imobiliário, Fundiário ou Patrimonial) em empresa
 
-### 1.2 Banco de palavras-chave (ATS + Recruiter)
-| Bloco | Palavras-chave |
-|---|---|
-| Função | Legal Counsel, jurídico interno, in-house, consultivo, preventivo, business partner |
-| Dados | LGPD, proteção de dados, privacidade, ANPD, DPO, encarregado de dados, RIPD, mapeamento de dados, política de cookies, Marco Civil da Internet |
-| PI e mídia | direito autoral, Lei 9.610/98, direito de imagem, propriedade intelectual, licenciamento de conteúdo, INPI, marcas, direito de resposta, CONAR, publicidade, branded content |
-| Contencioso | contencioso estratégico, gestão de contencioso, redução de passivo, acordos, gestão de escritórios externos, PJe |
-| Compliance | compliance, governança, gestão de riscos, políticas internas, código de conduta, Lei Anticorrupção, canal de denúncias |
-| Contratos | contratos comerciais, contratos de licenciamento, termos de uso, negociação, SLA |
-| Legal ops | legal operations, indicadores jurídicos, jurimetria, dashboards, padronização de documentos, IA aplicada ao jurídico |
-| Idioma/ferramentas | inglês [confirmar nível], Excel avançado, Power BI [confirmar], OAB ativa |
+### 1.2 Banco de palavras-chave
+| Bloco | Já está no CV | Acrescentar **se você fez** |
+|---|---|---|
+| Imobiliário/registral | due diligence imobiliária, matrícula, cadeia dominial, ônus, gravames, certidões, escrituras, alienação fiduciária, contratos imobiliários | registro de imóveis, averbação, retificação de área, usucapião extrajudicial, Lei 6.015/73, Lei 14.382/2022 (SERP), compra e venda, permuta, locação, built to suit, incorporação imobiliária |
+| Fundiário/agrário | regularidade fundiária, CAR, CCIR, CIB, ITR, SIGEF, georreferenciamento, aquisição por estrangeiros | INCRA, Lei 5.709/71, arrendamento rural, parceria rural, Estatuto da Terra, servidão, REURB (Lei 13.465/2017), CPR |
+| Consultivo | pareceres, opiniões legais, classificação de risco, relatórios jurídicos | legal opinion, red flags, quadro de pendências (já tem: use o termo "red flag report"), M&A imobiliário |
+| Riscos | compliance, gestão de riscos, prevenção de litígios | — |
+| Setores | florestal, agronegócio, industrial | energia renovável, eólica, solar, celulose, mineração |
+| Ferramentas | PJe, e-SAJ, Projudi, SEI, Excel, IA | ONR/SAEC (registro eletrônico), e-Notariado, Power BI |
 
-> Regra: a mesma palavra deve aparecer em **4 lugares**: headline, Sobre, experiência e competências. É isso que o Recruiter pontua.
+> Regra: cada termo-chave aparece em **4 lugares**: headline, Sobre, experiência e competências.
 
 ---
 
 ## ETAPA 2: Ficar encontrável (Hunting Ativo) (semanas 1–2)
 
-### 2.1 Como o recrutador te procura (e o que fazer)
-| Filtro do LinkedIn Recruiter | O que ele digita | Sua ação |
+### 2.1 Como o recrutador te procura
+| Filtro do Recruiter | O que ele digita | Sua ação |
 |---|---|---|
-| Cargo (atual/anterior) | "Legal Counsel", "Advogado Interno", "Privacy" | Nome do cargo padrão de mercado. Se o título oficial é diferente, use "Advogada Interna (Legal Counsel)". |
-| Palavras-chave (busca booleana) | `LGPD AND ("direito autoral" OR "propriedade intelectual")` | Banco da Etapa 1 espalhado pelo perfil |
-| Competências | LGPD, Contratos, Compliance | 5 competências fixadas no topo |
-| Localização | Salvador, Bahia, Brasil / São Paulo | Cidade real + "Remoto" nas preferências |
-| "Open to Work" | filtro exclusivo de recrutadores | Ligar com visibilidade "somente recrutadores" |
-| Anos de experiência | 5–10 anos | Datas completas nas experiências |
-| Engajamento | "mais propensos a responder" | Atividade recente e respostas rápidas no InMail |
+| Cargo | "Advogado Imobiliário", "Advogada Registral", "Advogado Agrário" | Cargo no LinkedIn igual ao do CV: "Advogada – Direito Imobiliário e Registral" |
+| Palavras-chave | `"due diligence" AND (imobiliário OR fundiário) AND (SIGEF OR georreferenciamento)` | Banco 1.2 espalhado pelo perfil |
+| Competências | Direito Imobiliário, Due Diligence, Direito Agrário | 5 competências fixadas (2.4) |
+| Local | Salvador; Bahia; Brasil (remoto) | Salvador + preferências: remoto/híbrido e [São Paulo? confirmar mudança] |
+| Open to Work | filtro exclusivo de recrutador | Ligar com visibilidade "somente recrutadores" |
+| Idioma | Inglês | Adicione "Inglês: avançado/profissional" na seção Idiomas do LinkedIn |
 
 ### 2.2 Headline (escolha 1)
-- **A:** `Legal Counsel | LGPD e Privacidade | Direito Autoral, Imagem e Mídia | Contencioso Estratégico e Compliance`
-- **B:** `Advogada Interna (Legal Counsel) | Proteção de Dados (LGPD) | Propriedade Intelectual e Mídia Digital`
-- **C (mais comercial):** `Jurídico que protege e gera receita | Legal Counsel em Mídia e Digital | LGPD · Direito Autoral · Compliance`
+- **A:** `Advogada | Direito Imobiliário e Registral | Due Diligence Imobiliária e Fundiária | Imóveis Rurais · Agro · Florestal`
+- **B:** `Advogada Imobiliário e Agrário | Due Diligence, Matrículas e Cadeia Dominial | SIGEF · CAR · CCIR | OAB/BA`
+- **C (com diferencial de risco):** `Advogada Imobiliário e Registral | Due Diligence de Imóveis Rurais | Gestão de Riscos e Compliance | Inglês avançado`
 
-### 2.3 "Sobre" (modelo pronto: ajuste os [confirmar])
-> Sou advogada com [X] anos de atuação e experiência como **jurídico interno de grupo de comunicação com operação em vários estados**. Atuo onde direito e negócio se cruzam: **LGPD e privacidade, direito autoral e de imagem, contratos de licenciamento e contencioso estratégico**.
+### 2.3 "Sobre" (modelo pronto)
+> Sou advogada de **Direito Imobiliário e Registral consultivo**, com foco em **due diligence imobiliária e fundiária de imóveis rurais** para operações de grande porte nos setores **florestal, industrial e do agronegócio**.
 >
-> O que entrego:
-> • **Raio-x e gestão de contencioso**: mapeei [66] processos, identifiquei a causa-raiz de [7 de 8] condenações e criei protocolo preventivo para redação e comercial.
-> • **LGPD em produto digital**: diagnóstico de sites (cookies, políticas, publicidade) e plano de adequação.
-> • **Direito autoral como receita**: estratégia para converter uso indevido de conteúdo em licenciamento.
-> • **Legal ops**: planilhas de monitoramento, protocolos e indicadores para diretoria.
+> No dia a dia: análise de matrículas, cadeia dominial, títulos, ônus, gravames e certidões; **pareceres e opiniões legais com classificação de risco**; regularidade fundiária e registral (**georreferenciamento, SIGEF, CAR, CCIR, ITR**); aquisição de imóveis rurais por estrangeiros; revisão de contratos e escrituras, incluindo **alienação fiduciária**; e interlocução técnica com **cartórios de registro de imóveis**.
 >
-> Busco posições de **Legal Counsel, Privacy/Data Protection ou PI e Mídia** em empresas de comunicação, tecnologia, varejo digital e serviços. Aberta a remoto e híbrido.
+> Antes, no **jurídico interno** de uma empresa de comunicação, criei protocolo de mapeamento de riscos e comitê jurídico que **reduziram o litígio em 60%**. Também atuei no Governo do Estado da Bahia em articulação institucional com o sistema de justiça e órgão federal.
 >
-> Palavras-chave: LGPD · Proteção de Dados · Direito Autoral · Propriedade Intelectual · Contratos · Compliance · Contencioso Estratégico · Legal Ops
+> Busco posições de **Advogada Imobiliário/Registral, Agrário ou Due Diligence** em escritórios e empresas (florestal, agro, energia renovável, incorporação). Salvador, aberta a remoto e híbrido. Inglês avançado.
+>
+> Due Diligence Imobiliária · Direito Registral · Direito Agrário · Regularização Fundiária · SIGEF · CAR · Contratos Imobiliários · Alienação Fiduciária · Gestão de Riscos
 
-### 2.4 Experiência: formato dos bullets
-`Verbo de resultado + o quê + escopo + número`
-- Estruturei o raio-x do contencioso ([66] processos no TJ), reduzindo o tempo de resposta a novas demandas de [x] para [y] dias. **[confirmar]**
-- Criei protocolo preventivo sobre uso de imagem em matérias policiais, causa de [7 de 8] condenações. **[confirmar]**
-- Conduzi diagnóstico de LGPD e publicidade em [3] portais, com plano de adequação priorizado.
-- Desenhei estratégia de direitos autorais para converter uso indevido de conteúdo em licenciamento.
+### 2.4 Demais ajustes
+- **Competências fixadas (top 5):** Direito Imobiliário · Due Diligence · Direito Registral · Direito Agrário · Contratos Imobiliários.
+- **Open to Work (só recrutadores):** os 5 cargos de 1.1; locais Salvador + Remoto; início imediato [confirmar].
+- **Destaques:** 1 carrossel "Checklist de due diligence de imóvel rural em 10 itens" e 1 post "Estrangeiro pode comprar imóvel rural? O que a Lei 5.709/71 exige". Também os certificados (Insper, FGV, ENAP).
+- **Banner:** "Due diligence imobiliária e fundiária | Segurança jurídica para operações com terra".
+- **Recomendações:** peça 2: um(a) sócio(a)/advogado(a) do escritório (técnica) e um(a) gestor(a) do BNews (resultado de 60%).
+- **Experiências no LinkedIn = CV**, com as mesmas datas e cargos. Divergência é motivo comum de descarte.
+- **Formação complementar que pesa no filtro (próximos passos):** pós em Direito Imobiliário ou Registral, ou curso de Direito Agrário/Agronegócio; curso de georreferenciamento/SIGEF para advogados.
 
-> Sigilo: não cite nome do cliente, partes ou números de processo sem autorização. "Grupo de mídia regional" basta.
-
-### 2.5 Demais ajustes do perfil
-- **Open to Work:** só recrutadores; cargos = os 5 da Etapa 1.1; locais = Salvador, São Paulo, Remoto; tipo = CLT e PJ [confirmar].
-- **Competências fixadas (top 5):** LGPD · Direito Autoral · Contratos · Compliance · Contencioso Estratégico.
-- **Destaques:** 1 artigo ou carrossel ("5 erros de LGPD em portais de notícia"), 1 post sobre direito de imagem × jornalismo, certificações.
-- **Banner:** frase de valor + 3 temas (LGPD | PI & Mídia | Compliance).
-- **URL:** linkedin.com/in/nome-sobrenome.
-- **Certificações que pesam no filtro:** CIPP/E ou CIPM (IAPP), EXIN Privacy & Data Protection, DPO pela ANPPD [avaliar 1 delas].
-
-### 2.6 Currículo à prova de ATS
-**Formato:**
-- Uma coluna, sem tabelas, caixas de texto, ícones, gráficos de "nível de habilidade" ou foto.
-- Títulos padrão: **Resumo · Experiência Profissional · Formação · Certificações · Competências · Idiomas**.
-- Fonte padrão (Arial, Calibri), 10–11 pt; datas no formato `mm/aaaa – mm/aaaa`.
-- Arquivo `.docx` ou PDF gerado de texto (nunca imagem). Nome: `Nome-Sobrenome-Legal-Counsel.pdf`.
-- 2 páginas no máximo.
-
-**Adaptação por vaga (10 minutos):**
-1. Copie a descrição da vaga.
-2. Marque os 10 termos que se repetem (ex.: "LGPD", "contratos", "gestão de escritórios").
-3. Garanta que cada um aparece no CV **com a mesma grafia** (ATS não entende sinônimo: "proteção de dados" ≠ "privacidade").
-4. Coloque o cargo da vaga no Resumo: "Legal Counsel com foco em…".
-5. Meta: cobrir **70–80%** das palavras-chave da vaga.
-
-**Teste rápido:** cole o PDF em um bloco de notas. Se o texto sair fora de ordem, misturado ou faltando, o ATS vai ler igual. Ferramentas como Jobscan comparam CV × vaga.
-
-**ATS mais comuns no Brasil (saiba como se comportam):** Gupy (triagem por palavras-chave e testes, responda todos os campos e não pule perguntas), Kenoby/Gupy, Workday e SAP SuccessFactors (multinacionais: preencha experiências manualmente), Greenhouse e Lever (techs: o CV é lido por humano mais cedo, carta curta ajuda).
+### 2.5 Adaptação do CV por vaga (10 minutos)
+1. Copie a descrição da vaga e marque os 10 termos repetidos.
+2. Garanta que cada um aparece **com a mesma grafia** ("direito imobiliário" ≠ "imobiliário"; "due diligence" ≠ "auditoria").
+3. Troque a 1ª frase do Resumo pelo cargo da vaga.
+4. Reordene as competências: as da vaga primeiro.
+5. Meta: **70–80%** das palavras-chave da vaga. Teste: cole o PDF num bloco de notas; o texto deve sair em ordem.
+6. **Gupy:** responda todas as perguntas, preencha experiências à mão e use os mesmos termos da vaga. **Workday/SuccessFactors:** confira os campos que o sistema preencheu automaticamente.
 
 ---
 
 ## ETAPA 3: Encontrar e abordar (Hunting Inverso) (semanas 2–4)
 
-### 3.1 Lista de 20 empresas-foco (ponto de partida: valide e troque à vontade)
-Critério: empresas que **precisam** do seu trio mídia + dados + PI.
+### 3.1 Lista de 20 empresas-foco (valide e troque à vontade)
+Critério: quem **compra, arrenda, financia ou regulariza terra** em volume, ou o escritório que atende essas empresas.
 
-| # | Segmento | Empresa | Por que faz sentido |
+| # | Grupo | Empresa | Por que faz sentido |
 |---|---|---|---|
-| 1 | Mídia | Grupo Globo | Conteúdo, direito autoral, imagem, LGPD em escala |
-| 2 | Mídia (BA) | Rede Bahia | Mídia regional, Salvador |
-| 3 | Mídia | Grupo Bandeirantes | TV, rádio e digital |
-| 4 | Mídia/digital | UOL | Portal, publicidade digital, dados |
-| 5 | Mídia | Grupo Folha / Estadão | Jornalismo, direito de resposta, acervo |
-| 6 | Streaming | Globoplay / Warner Bros. Discovery / Disney | Licenciamento e PI |
-| 7 | Plataforma | Mercado Livre | Privacidade, PI (marketplace), contratos |
-| 8 | Plataforma | iFood | LGPD, contratos, regulatório digital |
-| 9 | Varejo digital | Magazine Luiza | Dados de consumidor, publicidade, CDC |
-| 10 | Fintech | Nubank | Privacy counsel, regulatório |
-| 11 | Fintech | Stone / PagBank | Dados, contratos, compliance |
-| 12 | Edtech/creator | Hotmart | Direito autoral de conteúdo digital |
-| 13 | SaaS | TOTVS / RD Station | Privacidade em software, contratos SaaS |
-| 14 | Saúde (NE) | Hapvida NotreDame Intermédica | Dados sensíveis (LGPD art. 11) |
-| 15 | Energia (BA) | Neoenergia Coelba | Grande empregador em Salvador, compliance |
-| 16 | Indústria (BA) | Braskem | Compliance forte, sede operacional na Bahia |
-| 17 | Varejo (NE) | Grupo Mateus | Expansão no Nordeste, dados de consumidor |
-| 18 | Escritório digital | Opice Blum | Referência em direito digital e LGPD |
-| 19 | Escritório | Baptista Luz | Tecnologia, PI, privacidade |
-| 20 | Consultoria | Big Four (Deloitte, PwC, EY, KPMG): áreas de Privacy | Projetos de adequação LGPD |
+| 1 | Celulose (BA) | Suzano | Grande base florestal no extremo sul da Bahia; aquisição e arrendamento de terras |
+| 2 | Celulose (BA) | Veracel | Sede em Eunápolis (BA); patrimônio fundiário |
+| 3 | Celulose (BA) | Bracell | Operação em Camaçari (BA); expansão de base florestal |
+| 4 | Celulose | Eldorado Brasil / CMPC | Expansão florestal; due diligence de terras |
+| 5 | Reflorestamento | Mombak / re.green / Biomas | Compra de terras para restauração e carbono |
+| 6 | Agro (oeste BA) | SLC Agrícola | Fazendas na Bahia; aquisição e arrendamento |
+| 7 | Agro / terras | Brasilagro | Compra e venda de terras agrícolas (inclusive na BA) |
+| 8 | Renováveis (BA) | Casa dos Ventos | Parques eólicos no interior baiano; arrendamento e regularização |
+| 9 | Renováveis (BA) | Neoenergia | Eólicas e solares; sede da Coelba em Salvador |
+| 10 | Renováveis | Auren / Voltalia / Statkraft | Projetos no Nordeste; servidões e arrendamentos |
+| 11 | Incorporação (Salvador) | Moura Dubeux | Incorporação imobiliária no Nordeste |
+| 12 | Incorporação | MRV / Cyrela / Direcional | Jurídico imobiliário com escala |
+| 13 | Banco / crédito | Banco do Nordeste / Banco do Brasil (agro) | Garantias reais, crédito rural, alienação fiduciária |
+| 14 | Escritório full service | Pinheiro Neto | Área forte de imobiliário e agronegócio |
+| 15 | Escritório full service | Mattos Filho | Imobiliário, agro e infraestrutura |
+| 16 | Escritório full service | Machado Meyer | Imobiliário e agronegócio |
+| 17 | Escritório full service | TozziniFreire / Demarest | Imobiliário e energia (due diligence de terras) |
+| 18 | Escritórios na Bahia | Bancas baianas com área imobiliária/agrária | Levantar no Análise Advocacia e no LinkedIn: "imobiliário" + "Salvador" |
+| 19 | Mineração (BA) | Empresas de mineração com operação na BA | Servidões, aquisição e regularização de áreas |
+| 20 | Cartórios | Registros de imóveis (Salvador e interior) | Escrevente/substituta: caminho técnico e porta para concurso, se fizer sentido |
 
-> Para cada empresa, anote: gerente/head jurídico, recrutador(a) de Talent Acquisition, 1 notícia recente, vagas abertas. Use a planilha sugerida em 3.5.
+> ⚠️ Ética e sigilo: se uma empresa-alvo for cliente do escritório em que você atuou, aborde com discrição e não use nenhuma informação das operações.
+> Para cada empresa, anote: head/gerente jurídico (ou sócio da área), recrutador(a), 1 notícia recente e as vagas abertas.
 
 ### 3.2 Filtros de busca prontos (copie e cole no LinkedIn)
 
 **A) Vagas (os 10 minutos do dia)**
 ```
-("legal counsel" OR "advogada interna" OR "advogado interno" OR "jurídico interno" OR "privacy counsel" OR "coordenadora jurídica" OR "especialista jurídico")
-AND (LGPD OR privacidade OR "proteção de dados" OR "propriedade intelectual" OR "direito autoral" OR compliance OR contratos)
-NOT (estágio OR estagiário OR trainee)
+("direito imobiliário" OR "advogado imobiliário" OR "advogada imobiliário" OR "imobiliário e registral" OR "direito registral" OR "due diligence imobiliária" OR "direito agrário" OR "advogado agrário" OR fundiário OR "regularização fundiária")
+NOT (estágio OR estagiário OR corretor OR "corretora de imóveis")
 ```
-Filtros: **Data do anúncio = últimas 24h** · Nível = Pleno, Sênior, Coordenação · Local = Salvador + Brasil (Remoto) + São Paulo · Ative **alerta de vaga** com esta busca.
-Dica: prefira vagas com menos de 25 candidatos e candidate-se pelo site da empresa quando houver.
+Filtros: **Data do anúncio = últimas 24h** · Nível = Assistente, Júnior, Pleno · Local = Salvador + Bahia + Brasil (Remoto) · **ative o alerta**.
+Repita a busca em **Gupy** (portal.gupy.io), **Indeed**, **Vagas.com** e na aba "Carreiras" das 20 empresas.
 
 **B) Recrutadores das empresas-foco (Pessoas)**
 ```
-("talent acquisition" OR recrutadora OR recrutador OR "tech recruiter" OR headhunter OR "business partner de RH")
-AND (jurídico OR legal OR "corporate functions" OR "staff")
+("talent acquisition" OR recrutadora OR recrutador OR headhunter OR "business partner" OR "atração de talentos")
 ```
-Filtros: **Empresa atual = as 20 empresas-foco** · Conexões de 2º grau · Localidade Brasil.
+Filtros: **Empresa atual = 20 empresas-foco** · 2º grau · Brasil.
 
-**C) Gestores jurídicos (quem decide)**
+**C) Quem decide (Pessoas)**
 ```
-("head jurídico" OR "gerente jurídico" OR "diretora jurídica" OR "diretor jurídico" OR "general counsel" OR "head of legal" OR DPO)
+("sócio" OR "sócia" OR "head jurídico" OR "gerente jurídico" OR "coordenador jurídico" OR "coordenadora jurídica" OR "general counsel")
+AND (imobiliário OR fundiário OR agrário OR "real estate" OR agronegócio)
 ```
-Filtros: Empresa atual = empresas-foco.
 
-**D) Vagas antes de virar vaga (Posts)**
+**D) Vaga antes de virar vaga (Publicações, últimas 24h)**
 ```
-(vaga OR contratando OR "estamos contratando" OR hiring OR "#temtrampo")
-AND (jurídico OR "legal counsel" OR advogada OR advogado)
-AND (LGPD OR privacidade OR "propriedade intelectual" OR contratos OR compliance)
+(vaga OR contratando OR "estamos contratando" OR "#temtrampo" OR hiring)
+AND (imobiliário OR registral OR agrário OR fundiário OR "due diligence")
+AND (advogado OR advogada OR jurídico)
 ```
-Filtros: aba **Publicações** · **Últimas 24 horas** · Ordenar por mais recentes.
 
-**E) Headhunters e consultorias com área jurídica**
-Michael Page (Legal), Robert Half (Jurídico), Hays (Legal), Page Executive, Fesa Group, Talenses, Exec. Busque "consultora jurídico" + nome da consultoria e conecte com 1–2 de cada.
+**E) Consultorias com área jurídica**
+Michael Page (Legal), Robert Half (Jurídico), Hays (Legal), Fesa Group, Talenses. Conecte com 1–2 consultores de cada.
 
-### 3.3 Mensagens de abordagem (até 300 caracteres no convite)
+### 3.3 Mensagens (até 300 caracteres no convite)
 
-**Para recrutador(a):**
-> Olá, [Nome]! Sou advogada com foco em LGPD, direito autoral e mídia digital, com experiência como jurídico interno de grupo de comunicação. Acompanho a [Empresa] e gostaria de estar no seu radar para posições de Legal Counsel. Obrigada!
+**Recrutador(a):**
+> Olá, [Nome]! Sou advogada de Direito Imobiliário e Registral, com foco em due diligence de imóveis rurais para operações florestais e do agro. Acompanho a [Empresa] e gostaria de estar no seu radar para vagas na área jurídica. Obrigada!
 
-**Para gestor(a) jurídico(a):**
-> Olá, [Nome]! Vi [post/notícia sobre X] da [Empresa]. Atuo com LGPD, PI e contencioso estratégico em mídia digital e admiro o trabalho do jurídico de vocês. Adoraria trocar uma ideia rápida sobre os desafios da área. Abraço!
+**Sócio(a) ou gestor(a) jurídico(a):**
+> Olá, [Nome]! Vi [post/operação/notícia]. Atuo com due diligence imobiliária e fundiária (matrículas, cadeia dominial, SIGEF, CAR) em operações florestais e do agro. Admiro o trabalho da sua equipe e adoraria trocar uma ideia rápida.
 
-**Follow-up após aceitar (sem anexar CV na primeira mensagem):**
-> Obrigada por aceitar, [Nome]! Em uma frase: ajudei um grupo de mídia a mapear [66] processos e transformar a principal causa de condenação em protocolo preventivo. Se surgir algo em Legal/Privacy na [Empresa], fico à disposição. Posso te enviar meu CV?
+**Follow-up depois de aceito (sem anexar CV de cara):**
+> Obrigada por aceitar, [Nome]! Em uma frase: faço due diligence de imóveis rurais com parecer e classificação de risco, e no jurídico interno ajudei a reduzir o litígio em 60%. Se surgir algo em imobiliário/agrário na [Empresa], posso te enviar meu CV?
 
-**Para quem postou vaga (Hunting Inverso puro):**
-> Olá, [Nome]! Vi sua publicação sobre a vaga de [cargo]. Tenho experiência direta em [2 requisitos da vaga]. Já me candidatei pelo site; posso te enviar um resumo de 3 linhas de como posso contribuir?
+**Para quem postou a vaga:**
+> Olá, [Nome]! Vi a vaga de [cargo]. Tenho experiência direta em [requisito 1] e [requisito 2]. Já me candidatei pelo site; posso te mandar um resumo de 3 linhas de como posso contribuir?
 
-### 3.4 Regras do Hunting Inverso
-- **Comente antes de pedir.** 2–3 comentários com conteúdo nos posts do gestor/recrutador antes do convite.
-- **Cadência semanal:** 10 convites, 5 comentários relevantes, 2 posts seus, 1 conversa de 15 minutos.
-- **Indicação > candidatura.** Busque ex-colegas e colegas de OAB/faculdade nas 20 empresas (filtro "Empresa atual" + "Escola").
-- **Grupos e comunidades:** IAPP (capítulo Brasil), ANPPD, comissões de Direito Digital e PI da OAB-BA, eventos de legal ops.
+### 3.4 Rede e indicação (o canal mais forte para o seu nicho)
+- **Liga Acadêmica de Direito Imobiliário** e colegas da Baiana de Direito: ex-colegas hoje em escritórios. Use o filtro "Escola" + "Empresa atual".
+- **Comissões da OAB-BA** (Direito Imobiliário, Notarial e Registral, Agronegócio): participe de 1 evento por mês.
+- **IBRADIM** (Instituto Brasileiro de Direito Imobiliário), **IRIB** (registradores) e **UBAU** (agrário): eventos e grupos reúnem sócios e gestores.
+- Cadência semanal: **10 convites · 5 comentários com conteúdo · 2 posts · 1 conversa de 15 minutos**.
 
 ### 3.5 Planilha de controle (colunas)
-`Empresa | Segmento | Contato | Cargo | Tipo (Recrutador/Gestor/Indicação) | Data convite | Aceitou? | Conversa? | Vaga aberta? | Próximo passo | Data próximo passo`
+`Empresa | Grupo | Contato | Cargo | Tipo (Recrutador/Decisor/Indicação) | Data convite | Aceitou? | Conversa? | Vaga? | Próximo passo | Data`
 
 ---
 
 ## ETAPA 4: Converter (entrevistas e rotina)
 
-### 4.1 Método dos 4 blocos (pitch "fale sobre você", 90 segundos)
-| Bloco | Conteúdo | Seu texto (rascunho) |
-|---|---|---|
-| 1. Quem sou | Cargo + especialidade | "Sou advogada, Legal Counsel com foco em LGPD, direito autoral e mídia digital." |
-| 2. O que fiz | 2 resultados com número | "No jurídico interno de um grupo de comunicação, mapeei [66] processos, achei a causa de [7 de 8] condenações e criei protocolo preventivo; também fiz o diagnóstico de LGPD dos portais." |
-| 3. Como trabalho (diferencial) | Jurídico de negócio | "Trabalho como parceira do negócio: transformo risco em processo e, quando possível, em receita, como no licenciamento de conteúdo copiado." |
-| 4. Por que vocês | Conexão com a empresa | "A [Empresa] está [expandindo / lidando com X]; é exatamente o tipo de desafio em que gero resultado." |
+### 4.1 Método dos 4 blocos ("fale sobre você", 90 segundos)
+| Bloco | Texto-base |
+|---|---|
+| 1. Quem sou | "Sou advogada de Direito Imobiliário e Registral consultivo, com foco em due diligence de imóveis rurais." |
+| 2. O que fiz | "Atuei em operações de aquisição e arrendamento para grandes grupos florestais e do agro: matrículas, cadeia dominial, SIGEF, CAR, pareceres com classificação de risco e aquisição por estrangeiros. Antes, no jurídico interno de uma empresa de comunicação, criei um protocolo de riscos que reduziu o litígio em 60%." |
+| 3. Diferencial | "Junto a técnica registral com visão de risco de negócio: entrego um parecer que diz o que fazer, não só o que está errado. E falo bem com cartório, cliente e órgão público." |
+| 4. Por que vocês | "A [Empresa] está [expandindo base florestal / novos parques / novos empreendimentos], e esse é exatamente o tipo de operação em que eu já trabalho." |
 
-### 4.2 Método STAR: 4 histórias prontas (complete os números)
-| # | Situação | Tarefa | Ação | Resultado | Responde a… |
+### 4.2 Histórias STAR (complete os números)
+| # | Situação | Tarefa | Ação | Resultado | Responde a |
 |---|---|---|---|---|---|
-| 1 | Grupo de mídia sem visão do passivo | Entender risco real | Raio-x de [66] processos, classificação por risco e causa | Causa-raiz achada ([7 de 8] condenações: imagem em matéria policial); protocolo preventivo | "Conte um problema complexo que resolveu" |
-| 2 | Conteúdo copiado por terceiros | Proteger PI | Estratégia de notificação com proposta de licenciamento | Infração convertida em receita potencial [confirmar] | "Como o jurídico gera valor?" |
-| 3 | Portais com riscos de LGPD e publicidade | Adequar sem travar o comercial | Diagnóstico + soluções priorizadas | Plano em [x] semanas, [n] pontos corrigidos [confirmar] | "Fale de LGPD na prática" |
-| 4 | Diretoria sem indicadores jurídicos | Dar visibilidade | Planilha de monitoramento e protocolo de ações | Rotina diária/mensal e decisões com dados | "Experiência com legal ops / gestão" |
+| 1 | Operação de aquisição de imóvel rural com risco na cadeia dominial [exemplo real, anonimizado] | Dar segurança à operação | Análise de matrícula e cadeia, certidões, SIGEF/CAR; quadro de pendências | Risco identificado + providência (ex.: retificação, condição precedente) [confirmar] | "Um caso técnico difícil" |
+| 2 | Cliente estrangeiro querendo adquirir imóvel rural | Dizer se e como pode | Parecer sobre Lei 5.709/71 e alternativas (arrendamento, estrutura) | Estrutura viável recomendada [confirmar] | "Parecer sob pressão / tema complexo" |
+| 3 | Empresa de mídia com litígio recorrente | Reduzir o passivo | Protocolo de mapeamento de riscos, comitê editorial-jurídico, automação de triagem | **-60% de litígio** | "Resultado que você gerou" |
+| 4 | Política pública com muitos atores | Articular justiça, municípios e órgão federal | Ofícios SEI, interlocução com a SENAPPEN, 40+ atendimentos/dia com controle de prazos | Melhorias propostas e fluxo organizado [confirmar] | "Volume, prazos e relacionamento" |
+| 5 | Experiências curtas (pergunta provável) | Mostrar coerência | Narrativa: público → interno → especialização em imobiliário | "Achei meu nicho e quero aprofundar aqui" | "Por que saiu?" |
 
-> Treine cada história em voz alta em até 2 minutos. Grave e ouça uma vez.
+> Treine cada uma em até 2 minutos, em voz alta. Grave e ouça uma vez.
 
-### 4.3 Perguntas que você deve fazer ao entrevistador
-1. Qual é o maior risco jurídico do negócio hoje?
-2. Como o jurídico é medido aqui?
-3. Como é a relação do jurídico com produto/comercial/redação?
-4. O que faria a pessoa nesta posição ser um sucesso em 6 meses?
+### 4.3 Perguntas técnicas prováveis (revise antes)
+- Diferença entre matrícula, transcrição e averbação; o que é cadeia dominial "vintenária".
+- Georreferenciamento: quando é obrigatório e qual a relação entre SIGEF e matrícula.
+- CCIR × CAR × ITR × CIB: para que serve cada um.
+- Aquisição de imóvel rural por estrangeiro e por empresa brasileira equiparada (Lei 5.709/71, Parecer AGU).
+- Alienação fiduciária de imóvel: constituição, consolidação da propriedade e leilão (Lei 9.514/97 e alterações da Lei 14.711/2023).
+- Red flags clássicos: sobreposição de áreas, indisponibilidade, penhora, terra devoluta, divergência de área.
 
-### 4.4 Rotina de 1 hora por dia (como no post)
+### 4.4 Perguntas para fazer ao entrevistador
+1. Quais tipos de operação são mais frequentes na equipe hoje?
+2. Como é dividido o trabalho entre due diligence, contratos e regularização?
+3. Como medem uma boa due diligence (prazo, qualidade, retrabalho)?
+4. O que faria alguém nesta posição ser um sucesso em 6 meses?
+
+### 4.5 Rotina de 1 hora por dia
 | Tempo | Atividade |
 |---|---|
-| 10 min | Vagas: alertas da busca A e candidatura só nas que batem ≥70% |
+| 10 min | Vagas: alertas da busca A; candidatar só onde a aderência for de 70% ou mais |
 | 20 min | Hunting Inverso: buscas B, C e D, convites e follow-ups na planilha |
-| 15 min | Conteúdo e networking: comentar 2–3 posts, escrever/agendar post (2x/semana) |
-| 15 min | Treino: 1 história STAR ou pitch de 4 blocos em voz alta |
+| 15 min | Conteúdo: comentar 2–3 posts do nicho e escrever 1 post (2x/semana) |
+| 15 min | Treino: pitch de 4 blocos, 1 história STAR ou 1 pergunta técnica de 4.3 |
 
-### 4.5 Metas e indicadores (revisar toda sexta)
-| Indicador | Meta semanal | Sinal de alerta |
+**Ideias de posts (2 por semana):** checklist de due diligence rural; estrangeiro e terra; SIGEF × matrícula; alienação fiduciária após o Marco das Garantias; red flags em cadeia dominial; regularização fundiária na Bahia.
+
+### 4.6 Indicadores (revisar toda sexta)
+| Indicador | Meta semanal | Se não bater |
 |---|---|---|
-| Aparições em buscas (painel do LinkedIn) | crescendo semana a semana | caiu → revisar headline/keywords |
-| Convites enviados / aceitos | 10 / ≥5 | aceitação <30% → revisar mensagem |
-| Conversas de 15 min | 1–2 | 0 por 2 semanas → focar indicação |
-| Candidaturas qualificadas | 3–5 | muitas sem retorno → teste de ATS |
-| Entrevistas | 1+ a partir da semana 3 | 0 em 4 semanas → refazer diagnóstico |
+| Aparições em buscas (painel do LinkedIn) | subir semana a semana | revisar headline e competências |
+| Convites enviados / aceitos | 10 / ≥5 | revisar a mensagem |
+| Conversas de 15 min | 1–2 | priorizar indicação (3.4) |
+| Candidaturas qualificadas | 3–5 | rodar o teste de ATS e adaptar o CV |
+| Entrevistas | 1+ a partir da semana 3 | refazer o diagnóstico 0.3 |
 
 ---
 
-## Checklist de execução
+## Checklist
 
 **Semana 1**
-- [ ] Preencher scorecard (0.3)
-- [ ] Definir cargos-alvo e banco de palavras-chave
-- [ ] Nova headline, "Sobre", competências, Open to Work (só recrutadores)
+- [ ] Aplicar ajustes do CV (0.4) e preencher números [confirmar]
+- [ ] Headline, Sobre, competências, idiomas, Open to Work (só recrutadores)
+- [ ] Alinhar datas e cargos do LinkedIn com o CV
+- [ ] Preencher o scorecard 0.5
 
 **Semana 2**
-- [ ] Reescrever bullets de experiência com números
-- [ ] CV em formato ATS + teste no bloco de notas
-- [ ] Criar alertas de vaga (busca A)
-- [ ] Validar lista de 20 empresas e montar planilha
+- [ ] Alertas de vaga (busca A) no LinkedIn e na Gupy
+- [ ] Validar as 20 empresas e montar a planilha
+- [ ] Pedir 2 recomendações
+- [ ] 1º post (checklist de due diligence rural)
 
 **Semanas 3–4**
-- [ ] 10 convites/semana (buscas B, C, E) + 5 comentários
-- [ ] 2 posts/semana (temas: LGPD em portais; direito de imagem no jornalismo; direito autoral × IA)
-- [ ] Pitch de 4 blocos e 4 histórias STAR gravados
-- [ ] Revisar indicadores toda sexta
+- [ ] 10 convites e 5 comentários por semana; 1 evento OAB-BA/IBRADIM
+- [ ] Pitch de 4 blocos e histórias STAR gravados
+- [ ] Revisar as perguntas técnicas de 4.3
+- [ ] Indicadores toda sexta
