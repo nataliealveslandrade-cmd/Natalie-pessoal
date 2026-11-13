@@ -23,7 +23,7 @@ A **LGPD** (Lei Geral de Proteção de Dados) diz que, quando uma empresa coleta
 | 1 | O aviso de cookies diz que o leitor "concorda" só por continuar navegando | 🔴 Alta |
 | 2 | Os anúncios começam a "seguir" o leitor antes de ele autorizar | 🔴 Alta |
 | 3 | Não existe um responsável pelos dados indicado no site | 🔴 Alta |
-| 4 | A política de privacidade de SP tem um link quebrado e dados da empresa errados | 🔴 Alta |
+| 4 | As políticas de privacidade de SP e RN mandam o leitor para links que não funcionam | 🔴 Alta |
 | 5 | O grupo de WhatsApp do RN mostra o telefone dos leitores para todo mundo | 🔴 Alta |
 | 6 | As Ofertas não avisam que o BNews ganha comissão | 🔴 Alta |
 | 7 | O formulário "Fale Conosco" não explica para que os dados servem | 🟡 Média |
@@ -68,14 +68,21 @@ A **LGPD** (Lei Geral de Proteção de Dados) diz que, quando uma empresa coleta
 
 <small>Base: LGPD, art. 41 · Resolução ANPD nº 18/2024</small>
 
-### 4. A política de privacidade de SP tem erros 🔴
-**O que vimos:**
-- O link de contato está escrito errado (`www.BNEWS SÃO PAULO.com.br/contato`) e leva a uma página que **não existe**.
-- A empresa aparece como **"EIRELI"**, um tipo de empresa que deixou de existir em 2021. Nas políticas do RN, a mesma empresa aparece como "LTDA".
+### 4. As políticas de privacidade mandam o leitor para links que não funcionam 🔴
+**O que vimos:** os sites **têm** uma página "Fale Conosco" que funciona. O problema é que as políticas **não mandam o leitor para lá**, e sim para endereços quebrados:
 
-**Por que é um problema:** o leitor não consegue entrar em contato, e o documento passa uma imagem de descuido.
+| Site | Link na política | Funciona? |
+|---|---|---|
+| SP | `www.BNEWS SÃO PAULO.com.br/contato/` | ❌ Escrito errado, e a página `/contato/` não existe |
+| SP e RN | `.../meu_cadastro` | ❌ A página não existe |
+| RN | `www.bnewsrnl.com.br/fale-conosco.html` | ❌ Erro de digitação ("rn**l**") |
+| RN | `www.bnewsrn.com.br/fale-conosco.html` (aparece em outro trecho) | ✅ Este funciona |
 
-**Como resolver:** corrigir o link (apontar para o "Fale Conosco" ou para o e-mail do encarregado) e colocar o nome correto da empresa, conforme o cartão CNPJ.
+Além disso, a política de SP diz que a empresa é **"EIRELI"**, um tipo de empresa que deixou de existir em 2021. As políticas do RN dizem "LTDA".
+
+**Por que é um problema:** é justamente no trecho em que a política explica **como o leitor pede para ver ou apagar seus dados** que os links estão quebrados. Na prática, o leitor fica sem caminho.
+
+**Como resolver:** trocar todos os links pelo **"Fale Conosco" correto** de cada site (ou pelo e-mail do responsável pelos dados), apagar a menção a "meu_cadastro" e corrigir o nome da empresa conforme o cartão CNPJ.
 
 <small>Base: LGPD, arts. 9º e 18</small>
 
@@ -140,7 +147,7 @@ A **LGPD** (Lei Geral de Proteção de Dados) diz que, quando uma empresa coleta
 
 | Quando | O que fazer | Custo |
 |---|---|---|
-| **Semana 1** | Corrigir a política de SP (4) · trocar o grupo pelo Canal de WhatsApp (5) · aviso nas Ofertas (6) | Zero |
+| **Semana 1** | Corrigir os links e o nome da empresa nas políticas (4) · trocar o grupo pelo Canal de WhatsApp (5) · aviso nas Ofertas (6) | Zero |
 | **Semanas 2 e 3** | Nomear o responsável pelos dados (3) · fazer uma política única com data, aviso no formulário e termos corrigidos (7, 9, 10, 11) | Zero |
 | **Semanas 2 a 4** | Nova barrinha de cookies com "Recusar" e anúncios só depois do aceite (1, 2) | Baixo (equipe de tecnologia) |
 | **Mês 2** | Fornecedores de fora do Brasil e newsletter (8, 12) | Zero |
