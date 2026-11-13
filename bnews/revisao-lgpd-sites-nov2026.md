@@ -1,7 +1,10 @@
-# Revisão LGPD dos sites BNews: versão simples
+# Revisão LGPD dos sites BNews: versão simples, com prints
 
-**Data:** 13/11/2026 · **Sites verificados:** BNews São Paulo, BNews RN e BNews Bahia.
-O site de Alagoas estava fora do ar. Algumas páginas do site da Bahia bloqueiam a leitura automática.
+**Data:** 13/11/2026 · **Sites verificados:** BNews São Paulo e BNews RN (completos) e BNews Bahia (página inicial).
+O site de Alagoas estava fora do ar, e as páginas internas do site da Bahia bloqueiam a leitura automática.
+**Em cada print, o que precisa ser corrigido está marcado em vermelho.**
+
+> **Correção em relação às versões anteriores:** eu tinha apontado "letras faltando" no PDF da política de SP. Ao abrir o PDF, vi que **o texto está normal**: o defeito era da minha ferramenta de leitura, não do documento. Esse ponto foi retirado.
 
 ---
 
@@ -12,131 +15,195 @@ A **LGPD** (Lei Geral de Proteção de Dados) diz que, quando uma empresa coleta
 3. **cuidar** delas para não vazarem;
 4. ter **alguém responsável** com quem o leitor possa falar.
 
-> O jornalismo em si (as matérias) tem proteção especial e fica fora dessas regras. Mas a **parte comercial** do site (anúncios, cadastros, formulários, grupos) **precisa seguir a lei**.
+> As matérias jornalísticas têm proteção especial e ficam fora dessas regras. Mas a **parte comercial** do site (anúncios, cadastros, formulários, grupos) **precisa seguir a lei**.
 
 ---
 
-## Resumo em uma tabela
+## Resumo
 
 | # | Problema | Urgência |
 |---|---|---|
 | 1 | O aviso de cookies diz que o leitor "concorda" só por continuar navegando | 🔴 Alta |
-| 2 | Os anúncios começam a "seguir" o leitor antes de ele autorizar | 🔴 Alta |
+| 2 | Ferramentas de anúncio e de estatística são ligadas antes de o leitor autorizar | 🔴 Alta |
 | 3 | Não existe um responsável pelos dados indicado no site | 🔴 Alta |
-| 4 | As políticas de privacidade de SP e RN mandam o leitor para links que não funcionam | 🔴 Alta |
+| 4 | As políticas mandam o leitor para links que não funcionam e trazem o nome da empresa errado | 🔴 Alta |
 | 5 | O grupo de WhatsApp do RN mostra o telefone dos leitores para todo mundo | 🔴 Alta |
 | 6 | As Ofertas não avisam que o BNews ganha comissão | 🔴 Alta |
 | 7 | O formulário "Fale Conosco" não explica para que os dados servem | 🟡 Média |
 | 8 | A política não conta que os dados vão para empresas de fora do Brasil | 🟡 Média |
 | 9 | O RN tem duas políticas de privacidade diferentes no ar | 🟡 Média |
-| 10 | As políticas estão em PDF, sem data e com letras faltando | 🟡 Média |
+| 10 | As políticas estão em PDF e sem data de atualização | 🟡 Média |
 | 11 | Os termos de uso dizem que podem mudar "sem aviso" | 🟡 Média |
 | 12 | Newsletter e notificações da Bahia precisam ser conferidas | 🟡 Verificar |
 
 ---
 
-## Explicando cada ponto
+## 1. O aviso de cookies 🔴
 
-### 1. O aviso de cookies 🔴
-**O que são cookies?** São pequenos arquivos que o site guarda no celular ou no computador do leitor. Alguns fazem o site funcionar; outros servem para **mostrar anúncios** e **contar a audiência**.
+![Aviso de cookies SP](prints/01-aviso-cookies-sp.png)
 
-**O que o site diz hoje:** *"ao continuar navegando, você concorda"*. Só existe um botão, de aceitar.
+**O que são cookies?** São pequenos arquivos que o site guarda no aparelho do leitor. Alguns fazem o site funcionar; outros servem para **mostrar anúncios** e **contar a audiência**.
 
-**Por que é um problema:** é como dizer "se você entrou na loja, concordou em ser filmado e ter seus dados vendidos". A lei exige que o leitor **possa dizer não**. Ficar no site não é dizer sim.
+**O que está errado:** o aviso diz *"ao continuar navegando, você concorda"* e só tem o botão **OK**.
 
-**Como resolver:** trocar a barrinha por uma com três botões: **Aceitar · Recusar · Personalizar**. Os botões de aceitar e recusar devem ter o mesmo tamanho.
+**Por que é um problema:** é como dizer que quem entrou na loja concordou em ser filmado. A lei exige que o leitor **possa dizer não**. Ficar no site não é dizer sim.
 
-<small>Base: LGPD, art. 5º, XII (consentimento) · Guia de Cookies da ANPD</small>
+**Como corrigir:** um aviso com três botões, **Aceitar · Recusar · Personalizar**, com o mesmo destaque para aceitar e recusar.
 
-### 2. Anúncios que "seguem" o leitor antes da autorização 🔴
-**O que acontece:** assim que a página abre, já carregam ferramentas do Google (anúncios e métricas), do comScore (audiência) e, na Bahia, do Taboola e do OneSignal (notificações). **O leitor ainda nem clicou em nada.**
+<small>Base: LGPD, art. 5º, XII · Guia de Cookies da ANPD</small>
 
-**Por que é um problema:** essas ferramentas só podem ser ligadas **depois** que o leitor autorizar. Hoje é como cobrar antes de o cliente aceitar o serviço.
+---
 
-**Como resolver:** contratar uma **ferramenta de consentimento** (existem opções gratuitas ou baratas) que só liga os anúncios depois do "Aceitar". O Google tem um modo próprio para isso que **preserva parte da receita** mesmo quando o leitor recusa.
+## 2. Ferramentas de anúncio ligadas antes da autorização 🔴
 
-<small>Base: LGPD, art. 7º, I</small>
+![Código com rastreadores](prints/02a-codigo-rastreadores-sp.png)
 
-### 3. Falta um responsável pelos dados 🔴
-**O que é:** a lei pede que a empresa indique uma pessoa (chamada de **encarregado** ou **DPO**) para atender os leitores e a autoridade de proteção de dados (ANPD).
+**O que está errado:** assim que a página abre, já são carregadas as ferramentas do Google (anúncios e estatística), do comScore (audiência) e do Taboola. **O leitor ainda nem clicou em nada.**
 
-**O que vimos:** não há nome nem e-mail dessa pessoa em nenhum site.
+![Analytics como necessário](prints/02b-analytics-como-necessario.png)
 
-**Por que é um problema:** se um leitor quiser saber o que o BNews tem sobre ele, ou pedir para apagar o cadastro, não sabe com quem falar.
+**E tem mais:** a própria política de SP classifica os cookies do **Google Analytics** (estatística) como **"Necessários"**. Eles **não são necessários** para o site funcionar; servem para medir a audiência. Essa classificação errada é o que hoje "justifica" ligar tudo sem pedir permissão.
 
-**Como resolver:** nomear o encarregado (pode ser você) e colocar no rodapé do site, por exemplo: *"Privacidade: privacidade@bnews..."*.
+**Por que é um problema:** essas ferramentas só podem ser ligadas **depois** que o leitor autorizar.
+
+**Como corrigir:**
+- usar uma **ferramenta de consentimento** (há opções gratuitas ou baratas) que só ligue anúncios e estatística depois do "Aceitar";
+- corrigir a tabela da política, passando o Google Analytics para "Estatística".
+
+O Google tem um modo próprio que **preserva parte da receita** mesmo quando o leitor recusa.
+
+<small>Base: LGPD, art. 7º, I · Guia de Cookies da ANPD</small>
+
+---
+
+## 3. Falta um responsável pelos dados 🔴
+
+![Rodapé sem DPO](prints/03a-rodape-rn-sem-dpo.png)
+
+![Seus direitos sem DPO](prints/03b-politica-seus-direitos.png)
+
+**O que está errado:** o rodapé tem o telefone e o e-mail da **redação**, e a política tem uma seção "Seus direitos", mas **nenhum dos dois diz quem é o responsável pelos dados** (o encarregado, ou DPO) nem como falar com ele.
+
+**Por que é um problema:** um leitor que queira saber o que o BNews tem sobre ele, ou pedir para apagar o cadastro, não sabe a quem recorrer.
+
+**Como corrigir:** nomear o encarregado (pode ser você) e publicar no rodapé e na política, por exemplo: *"Privacidade: privacidade@bnews..."*.
 
 <small>Base: LGPD, art. 41 · Resolução ANPD nº 18/2024</small>
 
-### 4. As políticas de privacidade mandam o leitor para links que não funcionam 🔴
-**O que vimos:** os sites **têm** uma página "Fale Conosco" que funciona. O problema é que as políticas **não mandam o leitor para lá**, e sim para endereços quebrados:
+---
 
-| Site | Link na política | Funciona? |
-|---|---|---|
-| SP | `www.BNEWS SÃO PAULO.com.br/contato/` | ❌ Escrito errado, e a página `/contato/` não existe |
-| SP e RN | `.../meu_cadastro` | ❌ A página não existe |
-| RN | `www.bnewsrnl.com.br/fale-conosco.html` | ❌ Erro de digitação ("rn**l**") |
-| RN | `www.bnewsrn.com.br/fale-conosco.html` (aparece em outro trecho) | ✅ Este funciona |
+## 4. Links quebrados e nome da empresa errado nas políticas 🔴
 
-Além disso, a política de SP diz que a empresa é **"EIRELI"**, um tipo de empresa que deixou de existir em 2021. As políticas do RN dizem "LTDA".
+**Os sites TÊM uma página "Fale Conosco" que funciona** (por exemplo, `bnewssaopaulo.com.br/fale-conosco.html`). O problema é que **as políticas não mandam o leitor para ela**.
 
-**Por que é um problema:** é justamente no trecho em que a política explica **como o leitor pede para ver ou apagar seus dados** que os links estão quebrados. Na prática, o leitor fica sem caminho.
+![Política SP pág 6](prints/04a-politica-sp-pag6.png)
 
-**Como resolver:** trocar todos os links pelo **"Fale Conosco" correto** de cada site (ou pelo e-mail do responsável pelos dados), apagar a menção a "meu_cadastro" e corrigir o nome da empresa conforme o cartão CNPJ.
+![Política SP pág 7](prints/04b-politica-sp-pag7.png)
+
+**Na política de SP**, nos dois trechos em que o leitor aprende a pedir acesso, exclusão ou descadastro, os links são `www.BNEWS SÃO PAULO.com.br/meu_cadastro` e `.../contato/`. Esses endereços **não existem**:
+
+![Contato 404](prints/04c-contato-404.png)
+
+![Política RN link](prints/04d-politica-rn-link.png)
+
+**Na política do RN**, o link tem um **erro de digitação**: `bnewsrnl` em vez de `bnewsrn`.
+
+![Política SP EIRELI](prints/04e-politica-sp-eireli.png)
+
+**O nome da empresa também está errado:** a política de SP diz **"EIRELI"**, um tipo de empresa que deixou de existir em 2021. As políticas do RN dizem "LTDA".
+
+**Por que é um problema:** justamente no trecho em que o leitor aprende a exercer seus direitos, ele cai numa página de erro.
+
+**Como corrigir:** trocar todos esses links pelo endereço do "Fale Conosco" de cada site (ou pelo e-mail do responsável pelos dados) e corrigir o nome da empresa conforme o cartão CNPJ.
 
 <small>Base: LGPD, arts. 9º e 18</small>
 
-### 5. O grupo de WhatsApp do RN 🔴
-**O que vimos:** o site convida o leitor a entrar num **grupo** de WhatsApp.
+---
+
+## 5. O grupo de WhatsApp do RN 🔴
+
+![WhatsApp RN](prints/05-whatsapp-rn.png)
+
+**O que está errado:** o botão "Quero me cadastrar" leva o leitor para um **grupo** de WhatsApp.
 
 **Por que é um problema:** num grupo, **todo mundo vê o número de todo mundo**. Qualquer participante, inclusive golpistas, pode copiar os telefones dos leitores. Quem expôs os números foi o BNews.
 
-**Como resolver:** trocar o grupo por um **Canal do WhatsApp**: só o BNews publica e os números ficam escondidos. Custo zero.
+**Como corrigir:** trocar o grupo por um **Canal do WhatsApp**, em que só o BNews publica e os números ficam escondidos. Custo zero.
 
-<small>Base: LGPD, arts. 6º e 46 (segurança)</small>
+<small>Base: LGPD, arts. 6º e 46</small>
 
-### 6. As Ofertas não avisam da comissão 🔴 (regra de publicidade, não de LGPD)
-**O que vimos:** os textos de "Ofertas" levam para a Amazon com um código do BNews. Quando o leitor compra, **o BNews ganha comissão**, mas o texto não avisa.
+---
 
-**Por que é um problema:** o leitor acha que é notícia, mas é publicidade. Além disso, a própria **Amazon exige esse aviso** e pode cancelar o programa, e o BNews **perde essa receita**.
+## 6. As Ofertas não avisam da comissão 🔴 (regra de publicidade)
 
-**Como resolver:** escrever no topo de cada oferta: *"Link de afiliado: o BNews pode ganhar comissão se você comprar por aqui."*
+![Ofertas SP](prints/06-ofertas-sp.png)
 
-<small>Base: Código de Defesa do Consumidor, art. 36 · CONAR</small>
+**O que está errado:** as Ofertas levam o leitor para a Amazon com um código do BNews. Quando ele compra, **o BNews ganha comissão**, e o texto não avisa isso em lugar nenhum.
 
-### 7. O formulário "Fale Conosco" 🟡
-**O que vimos:** o formulário pede e-mail, telefone, cidade e mensagem, mas **não diz para que** esses dados vão ser usados.
+**Por que é um problema:** o leitor acha que é notícia, mas é publicidade. A **Amazon exige esse aviso** e pode cancelar o programa, e o BNews perderia essa receita.
 
-**Como resolver:** colocar uma frase embaixo do botão: *"Usaremos seus dados só para responder sua mensagem. Veja nossa Política de Privacidade."* E pensar se o telefone e a cidade são realmente necessários.
+**Como corrigir:** colocar no topo de cada oferta: *"Link de afiliado: o BNews pode ganhar comissão se você comprar por aqui."*
+
+<small>Base: CDC, art. 36 · CONAR</small>
+
+---
+
+## 7. O formulário "Fale Conosco" 🟡
+
+![Fale Conosco](prints/07-fale-conosco-sp.png)
+
+**O que está errado:** o formulário pede e-mail, telefone, cidade e mensagem, mas **não diz para que** esses dados serão usados.
+
+**Como corrigir:** colocar embaixo do botão: *"Usaremos seus dados só para responder sua mensagem. Veja nossa Política de Privacidade."* Também vale pensar se o telefone e a cidade são realmente necessários.
 
 <small>Base: LGPD, art. 9º</small>
 
-### 8. Dados que vão para fora do Brasil 🟡
-**O que acontece:** Google, Taboola, comScore e OneSignal são empresas estrangeiras, e os dados dos leitores vão para servidores **fora do país**.
+---
 
-**Por que é um problema:** a lei permite isso, desde que exista um **contrato com garantias** e que o leitor **seja avisado**. A política atual não diz nada sobre isso.
+## 8. Dados que vão para fora do Brasil 🟡
 
-**Como resolver:** conferir os contratos desses fornecedores e incluir na política: *"usamos os serviços de [empresas], que podem armazenar dados fora do Brasil."*
+![Compartilhamento](prints/08-politica-compartilhamento.png)
+
+**O que está errado:** a seção "Com quem compartilhamos os dados" **não conta** que Google, Taboola e comScore são empresas estrangeiras e que os dados vão para fora do país.
+
+**Por que é um problema:** a lei permite isso, desde que haja um **contrato com garantias** e que o leitor **seja avisado**.
+
+**Como corrigir:** conferir os contratos desses fornecedores e incluir na política quais são e que os dados podem ser armazenados fora do Brasil.
 
 <small>Base: LGPD, arts. 33 a 36 · Resolução ANPD nº 19/2024</small>
 
-### 9. Duas políticas diferentes no RN 🟡
-**O que vimos:** o site do RN tem duas políticas no ar ("BNews Natal" e "BNews RN").
+---
 
-**Como resolver:** fazer **uma política só para todo o grupo BNews**, válida para todos os sites.
+## 9. Duas políticas diferentes no RN 🟡
 
-### 10. Políticas em PDF, sem data 🟡
-**O que vimos:** as políticas estão em PDF, sem data de atualização, e o PDF de SP tem letras faltando.
+![Duas políticas RN](prints/09-duas-politicas-rn.png)
 
-**Como resolver:** publicar a política como uma **página normal do site**, com *"Última atualização: [data]"* no topo.
+**O que está errado:** no site do RN, o aviso de cookies abre a política **"BNews NATAL"** e o rodapé abre **outra**, a **"BNews RN"**.
 
-### 11. Termos de uso que mudam "sem aviso" 🟡
-**O que vimos:** os termos do RN dizem que podem ser alterados *"a qualquer momento sem qualquer aviso prévio"*.
+**Como corrigir:** fazer **uma política só para todo o grupo BNews**, usada em todos os sites e em todos os links.
 
-**Como resolver:** trocar por *"Os termos podem ser atualizados. A data da última versão fica no topo e mudanças importantes serão avisadas no site."*
+---
 
-### 12. Newsletter e notificações (Bahia) 🟡 Verificar
-**O que conferir:**
+## 10. Políticas em PDF e sem data 🟡
+
+**O que está errado:** as políticas são arquivos PDF e **não dizem quando foram atualizadas**.
+
+**Como corrigir:** publicar a política como uma **página normal do site**, com *"Última atualização: [data]"* no topo.
+
+---
+
+## 11. Termos de uso que mudam "sem aviso" 🟡
+
+![Termos RN](prints/11-termos-rn.png)
+
+**O que está errado:** os termos do RN dizem que podem ser alterados *"a qualquer momento sem qualquer aviso prévio"*.
+
+**Como corrigir:** trocar por *"Os termos podem ser atualizados. A data da última versão fica no topo e mudanças importantes serão avisadas no site."*
+
+---
+
+## 12. Newsletter e notificações (Bahia) 🟡 Verificar
+As páginas internas do site da Bahia bloqueiam a leitura automática, por isso não há print. **O que conferir manualmente:**
 - [ ] O cadastro da newsletter explica para que o e-mail será usado?
 - [ ] Cada e-mail enviado tem o link **"Descadastrar"**?
 - [ ] Existe contrato com a plataforma de envio?
@@ -147,7 +214,7 @@ Além disso, a política de SP diz que a empresa é **"EIRELI"**, um tipo de emp
 
 | Quando | O que fazer | Custo |
 |---|---|---|
-| **Semana 1** | Corrigir os links e o nome da empresa nas políticas (4) · trocar o grupo pelo Canal de WhatsApp (5) · aviso nas Ofertas (6) | Zero |
-| **Semanas 2 e 3** | Nomear o responsável pelos dados (3) · fazer uma política única com data, aviso no formulário e termos corrigidos (7, 9, 10, 11) | Zero |
-| **Semanas 2 a 4** | Nova barrinha de cookies com "Recusar" e anúncios só depois do aceite (1, 2) | Baixo (equipe de tecnologia) |
+| **Semana 1** | Corrigir links e nome da empresa nas políticas (4) · trocar o grupo pelo Canal de WhatsApp (5) · aviso nas Ofertas (6) | Zero |
+| **Semanas 2 e 3** | Nomear o responsável pelos dados (3) · política única, com data, aviso no formulário e termos corrigidos (7, 9, 10, 11) | Zero |
+| **Semanas 2 a 4** | Novo aviso de cookies com "Recusar", ferramentas ligadas só depois do aceite e Google Analytics reclassificado (1, 2) | Baixo (equipe de tecnologia) |
 | **Mês 2** | Fornecedores de fora do Brasil e newsletter (8, 12) | Zero |
