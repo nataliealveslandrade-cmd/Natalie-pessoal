@@ -94,7 +94,7 @@ A exceção vale apenas para o tratamento feito **exclusivamente** para fins jor
 > **§ 1º** A identidade e as informações de contato do encarregado deverão ser divulgadas publicamente, de forma clara e objetiva, preferencialmente no sítio eletrônico do controlador.
 > **§ 3º** A autoridade nacional poderá estabelecer normas complementares sobre a definição e as atribuições do encarregado, inclusive hipóteses de dispensa da necessidade de sua indicação, conforme a natureza e o porte da entidade ou o volume de operações de tratamento de dados.
 
-**Como adequar:** indicar formalmente o encarregado e publicar o nome e o contato dele no rodapé dos sites e na Política de Privacidade.
+**Como adequar:** indicar formalmente o encarregado e publicar o nome e o contato dele no rodapé dos sites e na Política de Privacidade. Como a receita bruta do BNews ultrapassa o limite previsto para os agentes de pequeno porte, **não se aplica a dispensa** prevista na Resolução CD/ANPD nº 2/2022 (ver Seção III, itens III.2 e III.3).
 
 ---
 
@@ -299,7 +299,7 @@ Esta seção reúne as normas e orientações oficiais que complementam a LGPD n
 >
 > **Art. 3º** Não poderão se beneficiar do tratamento jurídico diferenciado previsto neste Regulamento os agentes de tratamento de pequeno porte que: I - realizem tratamento de alto risco para os titulares [...]; II - aufiram receita bruta superior ao limite estabelecido no art. 3º, II, da Lei Complementar nº 123, de 2006 [...]; ou III - pertençam a grupo econômico de fato ou de direito, cuja receita global ultrapasse os limites referidos no inciso II [...]
 
-**Aplicação:** a dispensa de encarregado depende de o BNews se enquadrar como agente de pequeno porte e de não incidir nas exclusões do art. 3º (alto risco, receita bruta ou grupo econômico). **É preciso verificar a receita bruta da empresa e do grupo.** Mesmo com a dispensa, o canal de comunicação com o titular é obrigatório.
+**Aplicação:** a receita bruta do BNews ultrapassa o limite do art. 3º, II, da Lei Complementar nº 123/2006. Por isso, nos termos do art. 3º, II, da Resolução, o BNews **não pode se beneficiar da dispensa** do art. 11 e **deve indicar encarregado**, conforme o art. 41 da LGPD.
 
 ## III.3 Resolução CD/ANPD nº 18/2024: atuação do encarregado
 **Relaciona-se com o ponto 3.**
