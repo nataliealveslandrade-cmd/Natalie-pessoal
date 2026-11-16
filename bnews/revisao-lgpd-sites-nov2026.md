@@ -1,220 +1,228 @@
-# Revisão LGPD dos sites BNews: versão simples, com prints
+# Revisão de adequação à LGPD: sites BNews
 
-**Data:** 13/11/2026 · **Sites verificados:** BNews São Paulo e BNews RN (completos) e BNews Bahia (página inicial).
-O site de Alagoas estava fora do ar, e as páginas internas do site da Bahia bloqueiam a leitura automática.
-**Em cada print, o que precisa ser corrigido está marcado em vermelho.**
-
-> **Correção em relação às versões anteriores:** eu tinha apontado "letras faltando" no PDF da política de SP. Ao abrir o PDF, vi que **o texto está normal**: o defeito era da minha ferramenta de leitura, não do documento. Esse ponto foi retirado.
+**Data da verificação:** 13/11/2026
+**Sites:** BNews São Paulo, BNews RN e BNews Bahia (página inicial)
+**Fonte normativa:** Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), texto atual.
+**Nos prints, o que precisa ser corrigido está marcado em vermelho.**
 
 ---
 
-## Primeiro, o básico: o que é a LGPD?
-A **LGPD** (Lei Geral de Proteção de Dados) diz que, quando uma empresa coleta informações de uma pessoa (nome, e-mail, telefone, o que ela clica no site), precisa:
-1. **avisar** o que vai fazer com essas informações;
-2. em alguns casos, **pedir permissão** antes;
-3. **cuidar** delas para não vazarem;
-4. ter **alguém responsável** com quem o leitor possa falar.
+## Por que a LGPD se aplica aos sites
 
-> As matérias jornalísticas têm proteção especial e ficam fora dessas regras. Mas a **parte comercial** do site (anúncios, cadastros, formulários, grupos) **precisa seguir a lei**.
+> **Art. 4º** Esta Lei não se aplica ao tratamento de dados pessoais: [...] II – realizado para fins **exclusivamente**: a) jornalístico e artísticos [...]
+
+A exceção vale apenas para o tratamento feito **exclusivamente** para fins jornalísticos. A coleta de dados para anúncios, estatísticas de audiência, formulários e grupos de mensagens não tem finalidade exclusivamente jornalística e, por isso, **está sujeita à LGPD**.
 
 ---
 
 ## Resumo
 
-| # | Problema | Urgência |
+| # | Ponto a adequar | Prioridade |
 |---|---|---|
-| 1 | O aviso de cookies diz que o leitor "concorda" só por continuar navegando | 🔴 Alta |
-| 2 | Ferramentas de anúncio e de estatística são ligadas antes de o leitor autorizar | 🔴 Alta |
-| 3 | Não existe um responsável pelos dados indicado no site | 🔴 Alta |
-| 4 | As políticas mandam o leitor para links que não funcionam e trazem o nome da empresa errado | 🔴 Alta |
-| 5 | O grupo de WhatsApp do RN mostra o telefone dos leitores para todo mundo | 🔴 Alta |
-| 6 | As Ofertas não avisam que o BNews ganha comissão | 🔴 Alta |
-| 7 | O formulário "Fale Conosco" não explica para que os dados servem | 🟡 Média |
-| 8 | A política não conta que os dados vão para empresas de fora do Brasil | 🟡 Média |
-| 9 | O RN tem duas políticas de privacidade diferentes no ar | 🟡 Média |
-| 10 | As políticas estão em PDF e sem data de atualização | 🟡 Média |
-| 11 | Os termos de uso dizem que podem mudar "sem aviso" | 🟡 Média |
-| 12 | Newsletter e notificações da Bahia precisam ser conferidas | 🟡 Verificar |
+| 1 | Aviso de cookies trata "continuar navegando" como concordância | Alta |
+| 2 | Ferramentas de anúncio e de estatística são carregadas antes de qualquer manifestação do leitor | Alta |
+| 3 | Não há indicação do encarregado pelo tratamento de dados | Alta |
+| 4 | As políticas indicam links de contato que não funcionam e trazem a identificação da empresa divergente | Alta |
+| 5 | Grupo de WhatsApp expõe o telefone dos leitores aos demais participantes | Alta |
+| 6 | O formulário "Fale Conosco" não informa a finalidade dos dados coletados | Média |
+| 7 | A política não identifica as empresas parceiras nem informa sobre transferência internacional | Média |
+| 8 | O site do RN mantém duas políticas de privacidade diferentes | Média |
+| 9 | As políticas não informam a data da última atualização | Média |
+| 10 | Os termos de uso preveem alteração "sem qualquer aviso prévio" | Média |
 
 ---
 
-## 1. O aviso de cookies 🔴
+## 1. Aviso de cookies
 
 ![Aviso de cookies SP](prints/01-aviso-cookies-sp.png)
 
-**O que são cookies?** São pequenos arquivos que o site guarda no aparelho do leitor. Alguns fazem o site funcionar; outros servem para **mostrar anúncios** e **contar a audiência**.
+**O que foi verificado:** o aviso diz *"Utilizamos cookies essenciais e tecnologias semelhantes de acordo com a nossa Política de Privacidade e, ao continuar navegando, você concorda com essas condições"*. Há um único botão, **"OK"**, e nenhuma opção de recusa. O mesmo aviso aparece nos sites de SP, do RN e da Bahia.
 
-**O que está errado:** o aviso diz *"ao continuar navegando, você concorda"* e só tem o botão **OK**.
+**Por que adequar:** a própria Política de Privacidade do BNews informa que a base legal para o uso de cookies é o **consentimento** (art. 7º, I). A LGPD exige que o consentimento seja uma manifestação inequívoca, e permanecer no site não é manifestação de vontade. Além disso, o aviso fala só em cookies "essenciais", mas o site usa cookies de anúncio e de estatística (ponto 2). Uma informação imprecisa torna o consentimento nulo.
 
-**Por que é um problema:** é como dizer que quem entrou na loja concordou em ser filmado. A lei exige que o leitor **possa dizer não**. Ficar no site não é dizer sim.
+**O que diz a LGPD:**
+> **Art. 5º, XII** – consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;
+>
+> **Art. 8º, § 2º** Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto nesta Lei.
+>
+> **Art. 9º, § 1º** Na hipótese em que o consentimento é requerido, esse será considerado nulo caso as informações fornecidas ao titular tenham conteúdo enganoso ou abusivo ou não tenham sido apresentadas previamente com transparência, de forma clara e inequívoca.
+>
+> **Art. 18, VIII** – informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa;
 
-**Como corrigir:** um aviso com três botões, **Aceitar · Recusar · Personalizar**, com o mesmo destaque para aceitar e recusar.
-
-<small>Base: LGPD, art. 5º, XII · Guia de Cookies da ANPD</small>
+**Como adequar:** substituir o aviso por um que ofereça as opções **Aceitar**, **Recusar** e **Personalizar**, descreva corretamente os tipos de cookies usados e registre a escolha do leitor.
 
 ---
 
-## 2. Ferramentas de anúncio ligadas antes da autorização 🔴
+## 2. Ferramentas de anúncio e estatística carregadas antes da manifestação do leitor
 
 ![Código com rastreadores](prints/02a-codigo-rastreadores-sp.png)
 
-**O que está errado:** assim que a página abre, já são carregadas as ferramentas do Google (anúncios e estatística), do comScore (audiência) e do Taboola. **O leitor ainda nem clicou em nada.**
+**O que foi verificado:** o código da página inicial carrega o Google Ad Manager (anúncios), o Google Analytics (estatística) e o comScore (medição de audiência) nos três sites, além do Taboola. O site da Bahia também carrega o OneSignal (notificações). Esse carregamento acontece ao abrir a página, antes de qualquer clique do leitor.
 
-![Analytics como necessário](prints/02b-analytics-como-necessario.png)
+![Analytics classificado como necessário](prints/02b-analytics-como-necessario.png)
 
-**E tem mais:** a própria política de SP classifica os cookies do **Google Analytics** (estatística) como **"Necessários"**. Eles **não são necessários** para o site funcionar; servem para medir a audiência. Essa classificação errada é o que hoje "justifica" ligar tudo sem pedir permissão.
+**O que foi verificado na política:** a Política de Privacidade de SP classifica os cookies do Google Analytics (_ga, _gid) como **"Necessários"**, mas a própria descrição da política diz que eles servem para *"entender como os visitantes interagem com as Páginas"*, ou seja, para estatística.
 
-**Por que é um problema:** essas ferramentas só podem ser ligadas **depois** que o leitor autorizar.
+**Por que adequar:** se a base legal é o consentimento, como diz a política, o tratamento só pode começar depois dele. A classificação dos cookies de estatística como "necessários" não corresponde à finalidade descrita na própria política.
 
-**Como corrigir:**
-- usar uma **ferramenta de consentimento** (há opções gratuitas ou baratas) que só ligue anúncios e estatística depois do "Aceitar";
-- corrigir a tabela da política, passando o Google Analytics para "Estatística".
+**O que diz a LGPD:**
+> **Art. 7º** O tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses: I – mediante o fornecimento de consentimento pelo titular; [...]
+>
+> **Art. 6º, VI** – transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento [...]
 
-O Google tem um modo próprio que **preserva parte da receita** mesmo quando o leitor recusa.
-
-<small>Base: LGPD, art. 7º, I · Guia de Cookies da ANPD</small>
-
----
-
-## 3. Falta um responsável pelos dados 🔴
-
-![Rodapé sem DPO](prints/03a-rodape-rn-sem-dpo.png)
-
-![Seus direitos sem DPO](prints/03b-politica-seus-direitos.png)
-
-**O que está errado:** o rodapé tem o telefone e o e-mail da **redação**, e a política tem uma seção "Seus direitos", mas **nenhum dos dois diz quem é o responsável pelos dados** (o encarregado, ou DPO) nem como falar com ele.
-
-**Por que é um problema:** um leitor que queira saber o que o BNews tem sobre ele, ou pedir para apagar o cadastro, não sabe a quem recorrer.
-
-**Como corrigir:** nomear o encarregado (pode ser você) e publicar no rodapé e na política, por exemplo: *"Privacidade: privacidade@bnews..."*.
-
-<small>Base: LGPD, art. 41 · Resolução ANPD nº 18/2024</small>
+**Como adequar:**
+- carregar as ferramentas de anúncio e de estatística **somente após o consentimento** do leitor;
+- corrigir a tabela de cookies da política, reclassificando o Google Analytics conforme a finalidade descrita.
 
 ---
 
-## 4. Links quebrados e nome da empresa errado nas políticas 🔴
+## 3. Encarregado pelo tratamento de dados não indicado
 
-**Os sites TÊM uma página "Fale Conosco" que funciona** (por exemplo, `bnewssaopaulo.com.br/fale-conosco.html`). O problema é que **as políticas não mandam o leitor para ela**.
+![Rodapé sem encarregado](prints/03a-rodape-rn-sem-dpo.png)
 
-![Política SP pág 6](prints/04a-politica-sp-pag6.png)
+![Seção Seus direitos](prints/03b-politica-seus-direitos.png)
 
-![Política SP pág 7](prints/04b-politica-sp-pag7.png)
+**O que foi verificado:** o rodapé dos sites traz o telefone e o e-mail da redação, e a política tem uma seção "Seus direitos", mas **nenhum dos dois identifica o encarregado** nem informa o contato dele.
 
-**Na política de SP**, nos dois trechos em que o leitor aprende a pedir acesso, exclusão ou descadastro, os links são `www.BNEWS SÃO PAULO.com.br/meu_cadastro` e `.../contato/`. Esses endereços **não existem**:
+**Por que adequar:** a lei exige a indicação do encarregado e a divulgação pública da identidade e do contato dele.
 
-![Contato 404](prints/04c-contato-404.png)
+**O que diz a LGPD:**
+> **Art. 41.** O controlador deverá indicar encarregado pelo tratamento de dados pessoais.
+> **§ 1º** A identidade e as informações de contato do encarregado deverão ser divulgadas publicamente, de forma clara e objetiva, preferencialmente no sítio eletrônico do controlador.
+> **§ 3º** A autoridade nacional poderá estabelecer normas complementares sobre a definição e as atribuições do encarregado, inclusive hipóteses de dispensa da necessidade de sua indicação, conforme a natureza e o porte da entidade ou o volume de operações de tratamento de dados.
 
-![Política RN link](prints/04d-politica-rn-link.png)
-
-**Na política do RN**, o link tem um **erro de digitação**: `bnewsrnl` em vez de `bnewsrn`.
-
-![Política SP EIRELI](prints/04e-politica-sp-eireli.png)
-
-**O nome da empresa também está errado:** a política de SP diz **"EIRELI"**, um tipo de empresa que deixou de existir em 2021. As políticas do RN dizem "LTDA".
-
-**Por que é um problema:** justamente no trecho em que o leitor aprende a exercer seus direitos, ele cai numa página de erro.
-
-**Como corrigir:** trocar todos esses links pelo endereço do "Fale Conosco" de cada site (ou pelo e-mail do responsável pelos dados) e corrigir o nome da empresa conforme o cartão CNPJ.
-
-<small>Base: LGPD, arts. 9º e 18</small>
+**Como adequar:** indicar formalmente o encarregado e publicar o nome e o contato dele no rodapé dos sites e na Política de Privacidade.
 
 ---
 
-## 5. O grupo de WhatsApp do RN 🔴
+## 4. Links de contato que não funcionam e identificação divergente da empresa
+
+![Política SP página 6](prints/04a-politica-sp-pag6.png)
+
+![Política SP página 7](prints/04b-politica-sp-pag7.png)
+
+**O que foi verificado:** nos trechos que explicam como o leitor pode acessar, corrigir ou excluir seus dados e como cancelar o recebimento de publicidade, a política de SP indica os endereços `https://www.BNEWS SÃO PAULO.com.br/meu_cadastro` e `https://www.BNEWS SÃO PAULO.com.br/contato/`. Os dois endereços não funcionam.
+
+![Página não encontrada](prints/04c-contato-404.png)
+
+![Política RN](prints/04d-politica-rn-link.png)
+
+**Na política do RN**, o mesmo trecho indica `www.bnewsrnl.com.br/fale-conosco.html`, com erro de digitação ("bnewsrnl"). A página "Fale Conosco" correta existe nos dois sites (`bnewssaopaulo.com.br/fale-conosco.html` e `bnewsrn.com.br/fale-conosco.html`), mas não é a indicada nesses trechos.
+
+![Política SP identificação](prints/04e-politica-sp-eireli.png)
+
+**Identificação da empresa:** a política de SP identifica a controladora como *"ALVES QUATRO ASSESSORIA DE COMUNICAÇÃO **EIRELI**"*, e as políticas do RN como *"...**LTDA**"*, com a mesma raiz de CNPJ (11.523.951).
+
+**O que diz a LGPD:**
+> **Art. 9º** O titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados [...]: III – identificação do controlador; IV – informações de contato do controlador; [...] VII – direitos do titular, com menção explícita aos direitos contidos no art. 18 desta Lei.
+>
+> **Art. 8º, § 5º** O consentimento pode ser revogado a qualquer momento mediante manifestação expressa do titular, por procedimento gratuito e facilitado [...]
+>
+> **Art. 18, § 5º** O requerimento referido no § 3º deste artigo será atendido sem custos para o titular, nos prazos e nos termos previstos em regulamento.
+
+**Como adequar:**
+- substituir os links pelo endereço correto do "Fale Conosco" de cada site ou pelo contato do encarregado;
+- conferir a razão social no cartão CNPJ e uniformizá-la em todas as políticas.
+
+---
+
+## 5. Grupo de WhatsApp
 
 ![WhatsApp RN](prints/05-whatsapp-rn.png)
 
-**O que está errado:** o botão "Quero me cadastrar" leva o leitor para um **grupo** de WhatsApp.
+**O que foi verificado:** no site do RN, o botão "Quero me cadastrar" leva a um **grupo** de WhatsApp (link do tipo `chat.whatsapp.com`). Em um grupo, o número de telefone de cada participante fica visível para os demais.
 
-**Por que é um problema:** num grupo, **todo mundo vê o número de todo mundo**. Qualquer participante, inclusive golpistas, pode copiar os telefones dos leitores. Quem expôs os números foi o BNews.
+**Por que adequar:** ao reunir leitores em um grupo, o BNews torna o telefone de cada um acessível a terceiros, sem finalidade informada e sem medida de proteção.
 
-**Como corrigir:** trocar o grupo por um **Canal do WhatsApp**, em que só o BNews publica e os números ficam escondidos. Custo zero.
+**O que diz a LGPD:**
+> **Art. 6º, VII** – segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;
+>
+> **Art. 46.** Os agentes de tratamento devem adotar medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.
 
-<small>Base: LGPD, arts. 6º e 46</small>
-
----
-
-## 6. As Ofertas não avisam da comissão 🔴 (regra de publicidade)
-
-![Ofertas SP](prints/06-ofertas-sp.png)
-
-**O que está errado:** as Ofertas levam o leitor para a Amazon com um código do BNews. Quando ele compra, **o BNews ganha comissão**, e o texto não avisa isso em lugar nenhum.
-
-**Por que é um problema:** o leitor acha que é notícia, mas é publicidade. A **Amazon exige esse aviso** e pode cancelar o programa, e o BNews perderia essa receita.
-
-**Como corrigir:** colocar no topo de cada oferta: *"Link de afiliado: o BNews pode ganhar comissão se você comprar por aqui."*
-
-<small>Base: CDC, art. 36 · CONAR</small>
+**Como adequar:** substituir o grupo por um meio em que o telefone dos leitores não fique visível a outros participantes (por exemplo, o Canal do WhatsApp) e informar a finalidade do cadastro.
 
 ---
 
-## 7. O formulário "Fale Conosco" 🟡
+## 6. Formulário "Fale Conosco"
 
 ![Fale Conosco](prints/07-fale-conosco-sp.png)
 
-**O que está errado:** o formulário pede e-mail, telefone, cidade e mensagem, mas **não diz para que** esses dados serão usados.
+**O que foi verificado:** o formulário coleta e-mail, assunto, telefone, cidade e mensagem e não informa a finalidade da coleta nem remete à Política de Privacidade.
 
-**Como corrigir:** colocar embaixo do botão: *"Usaremos seus dados só para responder sua mensagem. Veja nossa Política de Privacidade."* Também vale pensar se o telefone e a cidade são realmente necessários.
+**O que diz a LGPD:**
+> **Art. 6º, I** – finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular [...]
+>
+> **Art. 6º, III** – necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades [...]
+>
+> **Art. 9º, I** – finalidade específica do tratamento;
 
-<small>Base: LGPD, art. 9º</small>
-
----
-
-## 8. Dados que vão para fora do Brasil 🟡
-
-![Compartilhamento](prints/08-politica-compartilhamento.png)
-
-**O que está errado:** a seção "Com quem compartilhamos os dados" **não conta** que Google, Taboola e comScore são empresas estrangeiras e que os dados vão para fora do país.
-
-**Por que é um problema:** a lei permite isso, desde que haja um **contrato com garantias** e que o leitor **seja avisado**.
-
-**Como corrigir:** conferir os contratos desses fornecedores e incluir na política quais são e que os dados podem ser armazenados fora do Brasil.
-
-<small>Base: LGPD, arts. 33 a 36 · Resolução ANPD nº 19/2024</small>
+**Como adequar:**
+- incluir junto ao formulário a informação da finalidade (por exemplo: *"Os dados informados serão usados para responder à sua mensagem."*) e o link para a Política de Privacidade;
+- avaliar se o telefone e a cidade são necessários para essa finalidade.
 
 ---
 
-## 9. Duas políticas diferentes no RN 🟡
+## 7. Empresas parceiras e transferência internacional
+
+![Seção de compartilhamento](prints/08-politica-compartilhamento.png)
+
+**O que foi verificado:** a seção "Com quem compartilhamos os dados" da política não identifica as empresas que recebem os dados dos leitores (o código do site carrega ferramentas do Google, do comScore e do Taboola) e não informa se há transferência internacional desses dados.
+
+**O que diz a LGPD:**
+> **Art. 9º, V** – informações acerca do uso compartilhado de dados pelo controlador e a finalidade;
+>
+> **Art. 18, VII** – informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados;
+>
+> **Art. 33.** A transferência internacional de dados pessoais somente é permitida nos seguintes casos: [...] II – quando o controlador oferecer e comprovar garantias de cumprimento dos princípios, dos direitos do titular e do regime de proteção de dados previstos nesta Lei, na forma de: [...] b) cláusulas-padrão contratuais; [...] VIII – quando o titular tiver fornecido o seu consentimento específico e em destaque para a transferência, com informação prévia sobre o caráter internacional da operação [...]
+
+**Como adequar:**
+- identificar na política as empresas parceiras e a finalidade do compartilhamento;
+- verificar nos contratos e termos dessas empresas se há transferência internacional e em qual hipótese do art. 33 ela se enquadra.
+
+---
+
+## 8. Duas políticas de privacidade no site do RN
 
 ![Duas políticas RN](prints/09-duas-politicas-rn.png)
 
-**O que está errado:** no site do RN, o aviso de cookies abre a política **"BNews NATAL"** e o rodapé abre **outra**, a **"BNews RN"**.
+**O que foi verificado:** no site do RN, o aviso de cookies abre a política "BNews NATAL" e o rodapé abre outra, a "BNews RN".
 
-**Como corrigir:** fazer **uma política só para todo o grupo BNews**, usada em todos os sites e em todos os links.
+**O que diz a LGPD:**
+> **Art. 6º, VI** – transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis [...]
 
----
-
-## 10. Políticas em PDF e sem data 🟡
-
-**O que está errado:** as políticas são arquivos PDF e **não dizem quando foram atualizadas**.
-
-**Como corrigir:** publicar a política como uma **página normal do site**, com *"Última atualização: [data]"* no topo.
+**Como adequar:** manter uma única Política de Privacidade, usada em todos os links do site.
 
 ---
 
-## 11. Termos de uso que mudam "sem aviso" 🟡
+## 9. Políticas sem data de atualização
+
+**O que foi verificado:** as políticas de SP e do RN são publicadas em PDF e não informam a data da última atualização.
+
+**O que diz a LGPD:**
+> **Art. 8º, § 6º** Em caso de alteração de informação referida nos incisos I, II, III ou V do art. 9º desta Lei, o controlador deverá informar ao titular, com destaque de forma específica do teor das alterações [...]
+
+**Como adequar:** informar no início da política a data da última atualização e destacar as alterações quando houver.
+
+---
+
+## 10. Termos de uso
 
 ![Termos RN](prints/11-termos-rn.png)
 
-**O que está errado:** os termos do RN dizem que podem ser alterados *"a qualquer momento sem qualquer aviso prévio"*.
+**O que foi verificado:** os termos de uso do RN dizem: *"Estes Termos podem ser alterados a qualquer momento sem qualquer aviso prévio."*
 
-**Como corrigir:** trocar por *"Os termos podem ser atualizados. A data da última versão fica no topo e mudanças importantes serão avisadas no site."*
+**O que diz a LGPD:**
+> **Art. 9º, § 2º** Na hipótese em que o consentimento é requerido, se houver mudanças da finalidade para o tratamento de dados pessoais não compatíveis com o consentimento original, o controlador deverá informar previamente o titular sobre as mudanças de finalidade, podendo o titular revogar o consentimento, caso discorde das alterações.
 
----
-
-## 12. Newsletter e notificações (Bahia) 🟡 Verificar
-As páginas internas do site da Bahia bloqueiam a leitura automática, por isso não há print. **O que conferir manualmente:**
-- [ ] O cadastro da newsletter explica para que o e-mail será usado?
-- [ ] Cada e-mail enviado tem o link **"Descadastrar"**?
-- [ ] Existe contrato com a plataforma de envio?
+**Como adequar:** prever que as alterações relevantes serão informadas previamente ao leitor e indicar a data da versão em vigor.
 
 ---
 
-## Por onde começar
+## Ordem sugerida de execução
 
-| Quando | O que fazer | Custo |
+| Etapa | Pontos | Responsáveis |
 |---|---|---|
-| **Semana 1** | Corrigir links e nome da empresa nas políticas (4) · trocar o grupo pelo Canal de WhatsApp (5) · aviso nas Ofertas (6) | Zero |
-| **Semanas 2 e 3** | Nomear o responsável pelos dados (3) · política única, com data, aviso no formulário e termos corrigidos (7, 9, 10, 11) | Zero |
-| **Semanas 2 a 4** | Novo aviso de cookies com "Recusar", ferramentas ligadas só depois do aceite e Google Analytics reclassificado (1, 2) | Baixo (equipe de tecnologia) |
-| **Mês 2** | Fornecedores de fora do Brasil e newsletter (8, 12) | Zero |
+| 1 | Corrigir links e identificação da empresa nas políticas (4) · substituir o grupo de WhatsApp (5) | Jurídico e Redação |
+| 2 | Indicar o encarregado (3) · política única, com data, informação no formulário e termos revisados (6, 8, 9, 10) | Jurídico |
+| 3 | Novo aviso de cookies e carregamento das ferramentas somente após o consentimento (1, 2) | Tecnologia e Jurídico |
+| 4 | Identificação das empresas parceiras e análise de transferência internacional (7) | Jurídico e Tecnologia |
