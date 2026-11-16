@@ -1,11 +1,13 @@
-# Revisão de adequação à LGPD: sites BNews
+# Revisão de adequação: sites BNews
 
 **Data da verificação:** 13/11/2026
 **Sites:** BNews São Paulo, BNews RN e BNews Bahia (página inicial)
-**Fonte normativa:** Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), texto atual.
+**Fontes normativas:** Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais) e Lei nº 8.078/1990 (Código de Defesa do Consumidor), textos atuais.
 **Nos prints, o que precisa ser corrigido está marcado em vermelho.**
 
 ---
+
+# SEÇÃO I: PROTEÇÃO DE DADOS PESSOAIS (LGPD)
 
 ## Por que a LGPD se aplica aos sites
 
@@ -15,7 +17,7 @@ A exceção vale apenas para o tratamento feito **exclusivamente** para fins jor
 
 ---
 
-## Resumo
+## Resumo da Seção I
 
 | # | Ponto a adequar | Prioridade |
 |---|---|---|
@@ -218,11 +220,36 @@ A exceção vale apenas para o tratamento feito **exclusivamente** para fins jor
 
 ---
 
+# SEÇÃO II: PUBLICIDADE (CÓDIGO DE DEFESA DO CONSUMIDOR)
+
+## 11. Ofertas com link de afiliado sem identificação como publicidade
+
+![Oferta SP](prints/12a-ofertas-sp.png)
+
+![Link de afiliado](prints/12b-ofertas-link-afiliado.png)
+
+**O que foi verificado:** a seção "Ofertas" dos sites de SP e do RN publica textos sobre produtos com desconto, assinados por "Redação". Na oferta verificada, o link do produto leva à Amazon com o identificador de afiliado do BNews (`tag=bnews_sp-20`). O texto não informa que se trata de conteúdo comercial nem que o BNews pode ser remunerado pelas compras feitas pelo link.
+
+**Por que adequar:** o conteúdo tem finalidade comercial, mas é apresentado no formato e com a assinatura de uma matéria jornalística. Assim, o leitor não consegue identificá-lo, de forma fácil e imediata, como publicidade.
+
+**O que diz o Código de Defesa do Consumidor:**
+> **Art. 6º** São direitos básicos do consumidor: [...] III - a informação adequada e clara sobre os diferentes produtos e serviços [...]; IV - a proteção contra a publicidade enganosa e abusiva, métodos comerciais coercitivos ou desleais [...]
+>
+> **Art. 36.** A publicidade deve ser veiculada de tal forma que o consumidor, fácil e imediatamente, a identifique como tal.
+>
+> **Art. 37, § 3º** Para os efeitos deste código, a publicidade é enganosa por omissão quando deixar de informar sobre dado essencial do produto ou serviço.
+
+**Como adequar:**
+- identificar cada oferta, no topo do texto, como conteúdo publicitário com link de afiliado (por exemplo: *"Conteúdo publicitário: o BNews pode receber comissão por compras feitas pelos links desta página."*);
+- substituir a assinatura "Redação" por uma identificação que não confunda o conteúdo comercial com o jornalístico.
+
+---
+
 ## Ordem sugerida de execução
 
 | Etapa | Pontos | Responsáveis |
 |---|---|---|
-| 1 | Corrigir links e identificação da empresa nas políticas (4) · substituir o grupo de WhatsApp (5) | Jurídico e Redação |
+| 1 | Corrigir links e identificação da empresa nas políticas (4) · substituir o grupo de WhatsApp (5) · identificar as Ofertas como publicidade (11) | Jurídico e Redação |
 | 2 | Indicar o encarregado (3) · política única, com data, informação no formulário e termos revisados (6, 8, 9, 10) | Jurídico |
 | 3 | Novo aviso de cookies e carregamento das ferramentas somente após o consentimento (1, 2) | Tecnologia e Jurídico |
 | 4 | Identificação das empresas parceiras e análise de transferência internacional (7) | Jurídico e Tecnologia |
