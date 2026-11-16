@@ -1,8 +1,8 @@
 # Revisão de adequação: sites BNews
 
 **Data da verificação:** 13/11/2026
-**Sites:** BNews São Paulo, BNews RN e BNews Bahia (página inicial)
-**Fontes normativas:** Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais) e Lei nº 8.078/1990 (Código de Defesa do Consumidor), textos atuais.
+**Sites:** BNews São Paulo, BNews RN e BNews Bahia (página inicial e cadastro da newsletter)
+**Fontes normativas:** Lei nº 13.709/2018 (LGPD), Lei nº 8.078/1990 (CDC), normas e orientações da ANPD e Lei nº 14.195/2021, conforme a Seção III.
 **Nos prints, o que precisa ser corrigido está marcado em vermelho.**
 
 ---
@@ -31,6 +31,7 @@ A exceção vale apenas para o tratamento feito **exclusivamente** para fins jor
 | 8 | O site do RN mantém duas políticas de privacidade diferentes | Média |
 | 9 | As políticas não informam a data da última atualização | Média |
 | 10 | Os termos de uso preveem alteração "sem qualquer aviso prévio" | Média |
+| 11 | O cadastro da newsletter não identifica o controlador nem remete à Política de Privacidade | Média |
 
 ---
 
@@ -220,9 +221,37 @@ A exceção vale apenas para o tratamento feito **exclusivamente** para fins jor
 
 ---
 
+## 11. Cadastro da newsletter (BNews Bahia)
+
+![Newsletter](prints/13-newsletter-ba.png)
+
+**O que foi verificado:** o site do BNews Bahia leva ao cadastro da newsletter, hospedado em `cadastro.newsletterbnews.com.br` (formulário da plataforma Mailjet). O formulário coleta **nome** e **e-mail** e traz uma caixa de concordância, **desmarcada e obrigatória**, com o texto: *"Concordo em receber e-mails e/ou mensagens de texto SMS, sabendo que posso facilmente cancelar o recebimento dessas comunicações a qualquer momento após a inscrição."*
+
+**Pontos a adequar:**
+- a página **não identifica o controlador** (a empresa responsável pelos dados) nem traz seu contato;
+- **não há link para a Política de Privacidade**;
+- o texto menciona **SMS**, mas o formulário **não coleta telefone**, o que torna imprecisa a finalidade informada;
+- o formulário é operado por uma plataforma terceirizada (Mailjet), que deve tratar os dados conforme as instruções do controlador.
+
+**O que está adequado:** a caixa de concordância vem **desmarcada** e é de marcação obrigatória, e o texto informa que o cancelamento pode ser feito a qualquer momento.
+
+**O que diz a LGPD:**
+> **Art. 9º** O titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados [...]: I – finalidade específica do tratamento; [...] III – identificação do controlador; IV – informações de contato do controlador; [...]
+>
+> **Art. 8º, § 4º** O consentimento deverá referir-se a finalidades determinadas, e as autorizações genéricas para o tratamento de dados pessoais serão nulas.
+>
+> **Art. 39.** O operador deverá realizar o tratamento segundo as instruções fornecidas pelo controlador, que verificará a observância das próprias instruções e das normas sobre a matéria.
+
+**Como adequar:**
+- identificar o controlador e o contato do encarregado na página de cadastro e incluir o link para a Política de Privacidade;
+- ajustar o texto de concordância para as finalidades efetivamente praticadas (retirar a menção a SMS, se não houver coleta de telefone);
+- verificar o contrato com a plataforma de envio quanto às instruções de tratamento.
+
+---
+
 # SEÇÃO II: PUBLICIDADE (CÓDIGO DE DEFESA DO CONSUMIDOR)
 
-## 11. Ofertas com link de afiliado sem identificação como publicidade
+## 12. Ofertas com link de afiliado sem identificação como publicidade
 
 ![Oferta SP](prints/12a-ofertas-sp.png)
 
@@ -245,11 +274,79 @@ A exceção vale apenas para o tratamento feito **exclusivamente** para fins jor
 
 ---
 
+# SEÇÃO III: NORMAS COMPLEMENTARES (ANPD E LEGISLAÇÃO CORRELATA)
+
+Esta seção reúne as normas e orientações oficiais que complementam a LGPD nos pontos tratados acima.
+
+## III.1 Guia Orientativo "Cookies e proteção de dados pessoais" (ANPD, outubro de 2022)
+**Relaciona-se com os pontos 1 e 2.**
+
+> *"[...] não é recomendável a utilização de banners de cookies com opções de autorização pré-selecionadas ou a adoção de mecanismos de consentimento tácito, como a pressuposição de que, ao continuar a navegação em uma página, o titular forneceria consentimento para o tratamento de seus dados pessoais."* (p. 19)
+>
+> *"Disponibilizar botão que permita rejeitar todos os cookies não necessários, de fácil visualização, nos banners de primeiro e segundo nível."* (p. 30)
+>
+> *"[...] o consentimento pode ser considerado uma hipótese legal mais apropriada para o uso de cookies de publicidade [...]. Essa conclusão é reforçada ao se considerar que os cookies de publicidade são classificados como não necessários [...]"* (p. 25)
+>
+> *"A utilização de cookies para fins de medição de audiência (cookies analíticos ou de medição) pode ser amparada na hipótese legal do legítimo interesse em determinados contextos, observados, em qualquer hipótese, os requisitos previstos na lgpd."* (p. 24)
+
+**Aplicação:** o aviso atual (ponto 1) adota o consentimento tácito, que o Guia considera não recomendável, e não oferece o botão de rejeição. Para os cookies de **publicidade**, o Guia indica o consentimento como hipótese mais apropriada. Para os cookies de **medição de audiência** (Google Analytics, comScore), o Guia admite o **legítimo interesse** em determinados contextos. Se o BNews optar por essa hipótese, a Política de Privacidade deverá informá-la, já que hoje indica o consentimento.
+
+## III.2 Resolução CD/ANPD nº 2/2022: agentes de tratamento de pequeno porte
+**Relaciona-se com o ponto 3.** Vigente, com alterações pela Resolução CD/ANPD nº 15/2024, segundo a página oficial da ANPD.
+
+> **Art. 11.** Os agentes de tratamento de pequeno porte não são obrigados a indicar o encarregado pelo tratamento de dados pessoais exigido no art. 41 da LGPD.
+> **§ 1º** O agente de tratamento de pequeno porte que não indicar um encarregado deve disponibilizar um canal de comunicação com o titular de dados para atender o disposto no art. 41, § 2º, I da LGPD.
+>
+> **Art. 3º** Não poderão se beneficiar do tratamento jurídico diferenciado previsto neste Regulamento os agentes de tratamento de pequeno porte que: I - realizem tratamento de alto risco para os titulares [...]; II - aufiram receita bruta superior ao limite estabelecido no art. 3º, II, da Lei Complementar nº 123, de 2006 [...]; ou III - pertençam a grupo econômico de fato ou de direito, cuja receita global ultrapasse os limites referidos no inciso II [...]
+
+**Aplicação:** a dispensa de encarregado depende de o BNews se enquadrar como agente de pequeno porte e de não incidir nas exclusões do art. 3º (alto risco, receita bruta ou grupo econômico). **É preciso verificar a receita bruta da empresa e do grupo.** Mesmo com a dispensa, o canal de comunicação com o titular é obrigatório.
+
+## III.3 Resolução CD/ANPD nº 18/2024: atuação do encarregado
+**Relaciona-se com o ponto 3.**
+
+> **Art. 3º** A indicação do encarregado deve ser realizada por ato formal do agente de tratamento, do qual constem as formas de atuação e as atividades a serem desempenhadas.
+> **§ 1º** Entende-se por ato formal o documento escrito, datado e assinado [...]
+>
+> **Art. 9º** A identidade e as informações de contato do encarregado deverão ser divulgadas publicamente, de forma clara e objetiva, em local de destaque e de fácil acesso, no sítio eletrônico do agente de tratamento [...]
+> **§ 1º** A divulgação da identidade do encarregado abrangerá, no mínimo: I - o nome completo, se for pessoa natural; [...]
+
+**Aplicação:** se o encarregado for indicado, a indicação deve ser feita por **documento escrito, datado e assinado**, e o nome completo e o contato devem ficar em **local de destaque** no site.
+
+## III.4 Resolução CD/ANPD nº 19/2024: transferência internacional de dados
+**Relaciona-se com o ponto 7.** Vigente, com as alterações da retificação de 18/08/2025, segundo a página oficial da ANPD.
+
+> **Art. 5º** A transferência internacional de dados será caracterizada quando o exportador transferir dados pessoais para o importador.
+>
+> **Art. 6º** A coleta internacional de dados não caracteriza transferência internacional de dados.
+>
+> **Art. 3º, V** – coleta internacional de dados: coleta de dados pessoais do titular efetuada diretamente pelo agente de tratamento localizado no exterior;
+>
+> **Art. 2º, parágrafo único.** Os agentes de tratamento que utilizam cláusulas contratuais para realizar transferências internacionais de dados deverão incorporar as cláusulas-padrão contratuais aprovadas pela ANPD aos seus respectivos instrumentos contratuais, no prazo de até 12 (doze) meses, contados da data de publicação desta Resolução.
+
+**Aplicação:** é preciso analisar, para cada empresa parceira (Google, comScore, Taboola, OneSignal, Mailjet), se o BNews **transfere** dados a ela (transferência internacional, que exige um mecanismo do art. 33 da LGPD, como as cláusulas-padrão) ou se a própria empresa **coleta diretamente** os dados do leitor (coleta internacional, que não caracteriza transferência). O prazo para incorporar as cláusulas-padrão aos contratos é de 12 meses contados da publicação da Resolução.
+
+## III.5 Lei nº 14.195/2021: transformação das EIRELI
+**Relaciona-se com o ponto 4.**
+
+> **Art. 41.** As empresas individuais de responsabilidade limitada existentes na data da entrada em vigor desta Lei serão transformadas em sociedades limitadas unipessoais independentemente de qualquer alteração em seu ato constitutivo.
+
+**Aplicação:** a política de SP identifica a controladora como "EIRELI", tipo societário que a lei transformou em sociedade limitada unipessoal. A identificação deve ser atualizada conforme o cartão CNPJ.
+
+## Fontes oficiais consultadas
+- Lei nº 13.709/2018 (LGPD), texto atual: normas.leg.br (Senado Federal)
+- Lei nº 8.078/1990 (CDC), compilação vigente: normas.leg.br (Senado Federal)
+- Lei nº 14.195/2021: normas.leg.br (Senado Federal)
+- Guia Orientativo "Cookies e proteção de dados pessoais", ANPD, out./2022: gov.br/anpd
+- Resoluções CD/ANPD nº 2/2022 e nº 19/2024: página "Regulamentações da ANPD", gov.br/anpd
+- Resolução CD/ANPD nº 18/2024: Diário Oficial da União (in.gov.br)
+
+---
+
 ## Ordem sugerida de execução
 
 | Etapa | Pontos | Responsáveis |
 |---|---|---|
-| 1 | Corrigir links e identificação da empresa nas políticas (4) · substituir o grupo de WhatsApp (5) · identificar as Ofertas como publicidade (11) | Jurídico e Redação |
+| 1 | Corrigir links e identificação da empresa nas políticas (4) · substituir o grupo de WhatsApp (5) · identificar as Ofertas como publicidade (12) | Jurídico e Redação |
 | 2 | Indicar o encarregado (3) · política única, com data, informação no formulário e termos revisados (6, 8, 9, 10) | Jurídico |
 | 3 | Novo aviso de cookies e carregamento das ferramentas somente após o consentimento (1, 2) | Tecnologia e Jurídico |
-| 4 | Identificação das empresas parceiras e análise de transferência internacional (7) | Jurídico e Tecnologia |
+| 4 | Identificação das empresas parceiras e análise de transferência internacional (7) · ajustes no cadastro da newsletter (11) | Jurídico e Tecnologia |
